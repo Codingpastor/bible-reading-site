@@ -276,8 +276,18 @@ function App() {
               />
             </svg>
             <div className="timer-display-modern">
-              {timerActive || timer > 0 ? `${Math.floor(timer/60).toString().padStart(2,'0')}:${(timer%60).toString().padStart(2,'0')}` : '--:--'}
+              {/* Render nothing at all, ever */}
             </div>
+            {timerActive && (
+              <div style={{
+                position: 'absolute',
+                top: 0, left: 0, right: 0, bottom: 0,
+                background: 'rgba(255,255,255,0.0)', // fully transparent overlay
+                borderRadius: '50%',
+                zIndex: 2,
+                pointerEvents: 'none',
+              }}></div>
+            )}
           </div>
           <div className="timer-controls-modern">
             <button
@@ -354,7 +364,8 @@ function App() {
         >Verse #</button>
       </div>
       <footer style={{textAlign: 'center', color: '#888', fontSize: '0.98em', margin: '2.5em 0 0.5em 0'}}>
-        Scripture text from the <a href="https://www.esv.org/" target="_blank" rel="noopener noreferrer" style={{color:'#7b9acc', textDecoration:'underline'}}>English Standard Version (ESV)</a> &copy; Crossway, used by permission. All rights reserved.<br/>
+        Scripture text from the <a href="https://www.esv.org/" target="_blank" rel="noopener noreferrer" style={{color:'#7b9acc', textDecoration:'underline'}}>English Standard Version (ESV)</a><br/>
+        &copy; Crossway, used by permission. All rights reserved.<br/>
         <span style={{fontSize: '0.95em', color: '#b6c9f0'}}>Made with <span style={{color: '#e07b7b', fontWeight: 700}}>&hearts;</span> by <a href="https://davidwicks.site/" target="_blank" rel="noopener noreferrer" style={{color:'#7b9acc', textDecoration:'underline'}}>David Wicks</a></span>
       </footer>
     </div>
