@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npx gh-pages -d dist"
+    "deploy": "npx gh-pages -d dist",
+    "build:gh": "set VITE_BASE=/bible-reading-site/ && npm run build",
+    "build:subdomain": "set VITE_BASE=/ && npm run build"
   },
   "dependencies": {
     "react": "^19.0.0",
