@@ -262,6 +262,10 @@ body, #root {
   align-items: center;
   gap: 1.2em;
   margin-top: 1em;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  align-items: center;
 }
 .timer-circle {
   position: relative;
@@ -465,11 +469,21 @@ body, #root {
     margin-bottom: 1rem;
   }
   .timer-circle {
-    width: 90px;
-    height: 90px;
+    width: 90vw;
+    max-width: 320px;
+    height: 90vw;
+    max-height: 320px;
+    min-width: 120px;
+    min-height: 120px;
   }
   .timer-display-modern {
     font-size: 1.3rem;
+  }
+  .meditation-timer-ui {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    align-items: center;
   }
 }
 

@@ -38,32 +38,73 @@ const bookChapters = {
   'Genesis': 50, 'Exodus': 40, 'Leviticus': 27, 'Numbers': 36, 'Deuteronomy': 34, 'Joshua': 24, 'Judges': 21, 'Ruth': 4, '1 Samuel': 31, '2 Samuel': 24, '1 Kings': 22, '2 Kings': 25, '1 Chronicles': 29, '2 Chronicles': 36, 'Ezra': 10, 'Nehemiah': 13, 'Esther': 10, 'Job': 42, 'Psalms': 150, 'Proverbs': 31, 'Ecclesiastes': 12, 'Song of Solomon': 8, 'Isaiah': 66, 'Jeremiah': 52, 'Lamentations': 5, 'Ezekiel': 48, 'Daniel': 12, 'Hosea': 14, 'Joel': 3, 'Amos': 9, 'Obadiah': 1, 'Jonah': 4, 'Micah': 7, 'Nahum': 3, 'Habakkuk': 3, 'Zephaniah': 3, 'Haggai': 2, 'Zechariah': 14, 'Malachi': 4,
   'Matthew': 28, 'Mark': 16, 'Luke': 24, 'John': 21, 'Acts': 28, 'Romans': 16, '1 Corinthians': 16, '2 Corinthians': 13, 'Galatians': 6, 'Ephesians': 6, 'Philippians': 4, 'Colossians': 4, '1 Thessalonians': 5, '2 Thessalonians': 3, '1 Timothy': 6, '2 Timothy': 4, 'Titus': 3, 'Philemon': 1, 'Hebrews': 13, 'James': 5, '1 Peter': 5, '2 Peter': 3, '1 John': 5, '2 John': 1, '3 John': 1, 'Jude': 1, 'Revelation': 22
 }
-function generateFullReadingPlan() {
+// Generate a 3-year reading plan: ~6 OT/week, 2 NT/week, start OT at 1 Samuel 9, NT in Matthew
+const otStart = { book: '1 Samuel', chapter: 9 }
+const otBooks = [
+  '1 Samuel','2 Samuel','1 Kings','2 Kings','1 Chronicles','2 Chronicles','Ezra','Nehemiah','Esther','Job','Psalms','Proverbs','Ecclesiastes','Song of Solomon','Isaiah','Jeremiah','Lamentations','Ezekiel','Daniel','Hosea','Joel','Amos','Obadiah','Jonah','Micah','Nahum','Habakkuk','Zephaniah','Haggai','Zechariah','Malachi'
+]
+const ntBooks = [
+  'Matthew','Mark','Luke','John','Acts','Romans','1 Corinthians','2 Corinthians','Galatians','Ephesians','Philippians','Colossians','1 Thessalonians','2 Thessalonians','1 Timothy','2 Timothy','Titus','Philemon','Hebrews','James','1 Peter','2 Peter','1 John','2 John','3 John','Jude','Revelation'
+]
+const otBookChapters = {
+  '1 Samuel': 31, '2 Samuel': 24, '1 Kings': 22, '2 Kings': 25, '1 Chronicles': 29, '2 Chronicles': 36, 'Ezra': 10, 'Nehemiah': 13, 'Esther': 10, 'Job': 42, 'Psalms': 150, 'Proverbs': 31, 'Ecclesiastes': 12, 'Song of Solomon': 8, 'Isaiah': 66, 'Jeremiah': 52, 'Lamentations': 5, 'Ezekiel': 48, 'Daniel': 12, 'Hosea': 14, 'Joel': 3, 'Amos': 9, 'Obadiah': 1, 'Jonah': 4, 'Micah': 7, 'Nahum': 3, 'Habakkuk': 3, 'Zephaniah': 3, 'Haggai': 2, 'Zechariah': 14, 'Malachi': 4
+}
+const ntBookChapters = {
+  'Matthew': 28, 'Mark': 16, 'Luke': 24, 'John': 21, 'Acts': 28, 'Romans': 16, '1 Corinthians': 16, '2 Corinthians': 13, 'Galatians': 6, 'Ephesians': 6, 'Philippians': 4, 'Colossians': 4, '1 Thessalonians': 5, '2 Thessalonians': 3, '1 Timothy': 6, '2 Timothy': 4, 'Titus': 3, 'Philemon': 1, 'Hebrews': 13, 'James': 5, '1 Peter': 5, '2 Peter': 3, '1 John': 5, '2 John': 1, '3 John': 1, 'Jude': 1, 'Revelation': 22
+}
+function generateCustomReadingPlan() {
   const plan = []
-  let bookIdx = 0, chapter = 1
+  let otBookIdx = otBooks.indexOf(otStart.book)
+  let otChapter = otStart.chapter
+  let ntBookIdx = 0
+  let ntChapter = 1
   let date = new Date(startDate)
-  while (bookIdx < bibleBooks.length) {
-    plan.push({
-      date: date.toISOString().slice(0,10),
-      book: bibleBooks[bookIdx],
-      chapter: chapter
-    })
-    chapter++
-    if (chapter > bookChapters[bibleBooks[bookIdx]]) {
-      bookIdx++; chapter = 1
+  while (plan.length < 3 * 365) {
+    // 3 OT, 1 NT, 3 OT, 1 NT, etc.
+    for (let i = 0; i < 3; i++) {
+      if (otBookIdx < otBooks.length) {
+        plan.push({
+          date: date.toISOString().slice(0,10),
+          book: otBooks[otBookIdx],
+          chapter: otChapter,
+          testament: 'OT'
+        })
+        otChapter++
+        if (otChapter > otBookChapters[otBooks[otBookIdx]]) {
+          otBookIdx++
+          otChapter = 1
+        }
+      }
+      date.setDate(date.getDate() + 1)
+    }
+    if (ntBookIdx < ntBooks.length) {
+      plan.push({
+        date: date.toISOString().slice(0,10),
+        book: ntBooks[ntBookIdx],
+        chapter: ntChapter,
+        testament: 'NT'
+      })
+      ntChapter++
+      if (ntChapter > ntBookChapters[ntBooks[ntBookIdx]]) {
+        ntBookIdx++
+        ntChapter = 1
+      }
     }
     date.setDate(date.getDate() + 1)
+    // Stop if both OT and NT are done
+    if (otBookIdx >= otBooks.length && ntBookIdx >= ntBooks.length) break
   }
   // Loop the plan to fill 3 years
   let i = 0
-  while (date <= endDate) {
-    plan.push({ ...plan[i], date: date.toISOString().slice(0,10) })
+  while (plan.length < 3 * 365) {
+    const d = new Date(startDate)
+    d.setDate(d.getDate() + plan.length)
+    plan.push({ ...plan[i], date: d.toISOString().slice(0,10) })
     i = (i + 1) % plan.length
-    date.setDate(date.getDate() + 1)
   }
   return plan
 }
-const fullReadingPlan = generateFullReadingPlan()
+const fullReadingPlan = generateCustomReadingPlan()
 
 function getReadingByDate(dateObj) {
   const dateStr = dateObj.toISOString().slice(0,10)
@@ -213,21 +254,6 @@ function App() {
           }}
         >Share</button>
       </div>
-      <div style={{display: 'flex', justifyContent: 'center', marginTop: '0.5em'}}>
-        <button
-          className="share-btn"
-          style={{background: 'linear-gradient(90deg, #e07b7b 0%, #f7b6b6 100%)'}}
-          onClick={() => {
-            if (showVerseNumbers) {
-              setPassage(passage => passage.replace(/\[\d+\]/g, ''))
-              setShowVerseNumbers(false)
-            } else {
-              setPassage(originalPassage)
-              setShowVerseNumbers(true)
-            }
-          }}
-        >{showVerseNumbers ? 'Remove Verse Numbers' : 'Show Verse Numbers'}</button>
-      </div>
       <div className="relax-meditation">
         <h3>Meditation Timer</h3>
         <div className="meditation-timer-ui">
@@ -313,8 +339,24 @@ function App() {
             {paraSpacingOptions.map(opt => <option key={opt.value} value={opt.value}>{opt.label}</option>)}
           </select>
         </label>
+        <button
+          className="share-btn"
+          style={{background: showVerseNumbers ? 'linear-gradient(90deg, #e07b7b 0%, #f7b6b6 100%)' : 'linear-gradient(90deg, #b6c9f0 0%, #7b9acc 100%)', marginLeft: 12, minWidth: 90}}
+          onClick={() => {
+            if (showVerseNumbers) {
+              setPassage(passage => passage.replace(/\[\d+\]/g, ''))
+              setShowVerseNumbers(false)
+            } else {
+              setPassage(originalPassage)
+              setShowVerseNumbers(true)
+            }
+          }}
+        >Verse #</button>
       </div>
-      {/* Scroll to top button removed */}
+      <footer style={{textAlign: 'center', color: '#888', fontSize: '0.98em', margin: '2.5em 0 0.5em 0'}}>
+        Scripture text from the <a href="https://www.esv.org/" target="_blank" rel="noopener noreferrer" style={{color:'#7b9acc', textDecoration:'underline'}}>English Standard Version (ESV)</a> &copy; Crossway, used by permission. All rights reserved.<br/>
+        <span style={{fontSize: '0.95em', color: '#b6c9f0'}}>Made with <span style={{color: '#e07b7b', fontWeight: 700}}>&hearts;</span> by <a href="https://davidwicks.site/" target="_blank" rel="noopener noreferrer" style={{color:'#7b9acc', textDecoration:'underline'}}>David Wicks</a></span>
+      </footer>
     </div>
   )
 }
