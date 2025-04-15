@@ -75,6 +75,8 @@ function App() {
   const [passage, setPassage] = useState('')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
+  const [showVerseNumbers, setShowVerseNumbers] = useState(true)
+  const [originalPassage, setOriginalPassage] = useState('')
   const today = new Date()
   const readingDate = new Date(today)
   readingDate.setDate(today.getDate() + offset)
@@ -116,8 +118,11 @@ function App() {
       .then(data => {
         if (data.passages && data.passages.length > 0) {
           setPassage(data.passages.join('\n'))
+          setOriginalPassage(data.passages.join('\n'))
+          setShowVerseNumbers(true)
         } else {
           setPassage('')
+          setOriginalPassage('')
           setError('No passage found.')
         }
         setLoading(false)
@@ -191,21 +196,38 @@ function App() {
       ) : (
         <p>No reading for this day.</p>
       )}
-      <button
-        className="share-btn"
-        onClick={() => {
-          if (navigator.share) {
-            navigator.share({
-              title: `${reading.book} ${reading.chapter} (${reading.date})`,
-              text: passage.replace(/<[^>]+>/g, ''),
-              url: window.location.href
-            })
-          } else {
-            navigator.clipboard.writeText(`${reading.book} ${reading.chapter} (${reading.date})\n${passage.replace(/<[^>]+>/g, '')}`)
-            alert('Passage copied to clipboard!')
-          }
-        }}
-      >Share</button>
+      <div style={{display: 'flex', justifyContent: 'center'}}>
+        <button
+          className="share-btn"
+          onClick={() => {
+            if (navigator.share) {
+              navigator.share({
+                title: `${reading.book} ${reading.chapter} (${reading.date})`,
+                text: passage.replace(/<[^>]+>/g, ''),
+                url: window.location.href
+              })
+            } else {
+              navigator.clipboard.writeText(`${reading.book} ${reading.chapter} (${reading.date})\n${passage.replace(/<[^>]+>/g, '')}`)
+              alert('Passage copied to clipboard!')
+            }
+          }}
+        >Share</button>
+      </div>
+      <div style={{display: 'flex', justifyContent: 'center', marginTop: '0.5em'}}>
+        <button
+          className="share-btn"
+          style={{background: 'linear-gradient(90deg, #e07b7b 0%, #f7b6b6 100%)'}}
+          onClick={() => {
+            if (showVerseNumbers) {
+              setPassage(passage => passage.replace(/\[\d+\]/g, ''))
+              setShowVerseNumbers(false)
+            } else {
+              setPassage(originalPassage)
+              setShowVerseNumbers(true)
+            }
+          }}
+        >{showVerseNumbers ? 'Remove Verse Numbers' : 'Show Verse Numbers'}</button>
+      </div>
       <div className="relax-meditation">
         <h3>Meditation Timer</h3>
         <div className="meditation-timer-ui">
