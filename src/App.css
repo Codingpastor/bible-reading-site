@@ -249,6 +249,54 @@ body, #root {
   --font-serif: 'Georgia', 'Times New Roman', serif;
   --font-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
 }
+.theme-dark, .theme-dark .relax-container, .theme-dark .relax-scripture, .theme-dark .relax-header h1, .theme-dark .relax-header h2, .theme-dark .relax-header h3, .theme-dark .esv-heading, .theme-dark .relax-options label, .theme-dark .relax-options select, .theme-dark .share-btn, .theme-dark .timer-btn, .theme-dark .timer-display-modern, .theme-dark .relax-nav button, .theme-dark footer {
+  color: #f3f3f3 !important;
+  background-color: transparent;
+}
+.theme-dark .relax-scripture {
+  background: linear-gradient(120deg, #23272e 60%, #2d313a 100%);
+  border: 1.5px solid #23272e;
+  color: #f3f3f3 !important;
+}
+.theme-dark .esv-heading {
+  color: #b6c9f0 !important;
+}
+.theme-dark .relax-header h1 {
+  color: #b6c9f0;
+}
+.theme-dark .relax-header h2 {
+  color: #7b9acc;
+}
+.theme-dark .relax-header h3 {
+  color: #b6c9f0;
+}
+.theme-dark .relax-options select {
+  background: #23272e;
+  color: #f3f3f3;
+  border: 1.5px solid #7b9acc;
+}
+.theme-dark .relax-options select:focus {
+  background: #2d313a;
+  border: 2px solid #b6c9f0;
+}
+.theme-dark .share-btn, .theme-dark .timer-btn {
+  background: linear-gradient(90deg, #7b9acc 0%, #23272e 100%);
+  color: #fff;
+}
+.theme-dark .timer-btn.stop {
+  background: linear-gradient(90deg, #e07b7b 0%, #23272e 100%);
+}
+.theme-dark .timer-complete-modern {
+  color: #4caf50;
+}
+.theme-dark .relax-nav button {
+  background: #23272e;
+  color: #f3f3f3;
+  border: 1.5px solid #7b9acc;
+}
+.theme-dark footer {
+  color: #b6c9f0;
+}
 .theme-sepia {
   --main-bg: linear-gradient(135deg, #f4ecd8 60%, #f8f5ee 100%);
   --main-fg: #3e2c1c;
