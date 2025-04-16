@@ -52,6 +52,15 @@ const otBookChapters = {
 const ntBookChapters = {
   'Matthew': 28, 'Mark': 16, 'Luke': 24, 'John': 21, 'Acts': 28, 'Romans': 16, '1 Corinthians': 16, '2 Corinthians': 13, 'Galatians': 6, 'Ephesians': 6, 'Philippians': 4, 'Colossians': 4, '1 Thessalonians': 5, '2 Thessalonians': 3, '1 Timothy': 6, '2 Timothy': 4, 'Titus': 3, 'Philemon': 1, 'Hebrews': 13, 'James': 5, '1 Peter': 5, '2 Peter': 3, '1 John': 5, '2 John': 1, '3 John': 1, 'Jude': 1, 'Revelation': 22
 }
+
+function toLocalDateString(dateObj) {
+  // Returns YYYY-MM-DD in local time
+  const y = dateObj.getFullYear()
+  const m = String(dateObj.getMonth() + 1).padStart(2, '0')
+  const d = String(dateObj.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
 function generateCustomReadingPlan() {
   const plan = []
   let otBookIdx = otBooks.indexOf(otStart.book)
@@ -64,7 +73,7 @@ function generateCustomReadingPlan() {
     for (let i = 0; i < 3; i++) {
       if (otBookIdx < otBooks.length) {
         plan.push({
-          date: date.toISOString().slice(0,10),
+          date: toLocalDateString(date),
           book: otBooks[otBookIdx],
           chapter: otChapter,
           testament: 'OT'
@@ -79,7 +88,7 @@ function generateCustomReadingPlan() {
     }
     if (ntBookIdx < ntBooks.length) {
       plan.push({
-        date: date.toISOString().slice(0,10),
+        date: toLocalDateString(date),
         book: ntBooks[ntBookIdx],
         chapter: ntChapter,
         testament: 'NT'
@@ -99,7 +108,7 @@ function generateCustomReadingPlan() {
   while (plan.length < 3 * 365) {
     const d = new Date(startDate)
     d.setDate(d.getDate() + plan.length)
-    plan.push({ ...plan[i], date: d.toISOString().slice(0,10) })
+    plan.push({ ...plan[i], date: toLocalDateString(d) })
     i = (i + 1) % plan.length
   }
   return plan
@@ -107,7 +116,7 @@ function generateCustomReadingPlan() {
 const fullReadingPlan = generateCustomReadingPlan()
 
 function getReadingByDate(dateObj) {
-  const dateStr = dateObj.toISOString().slice(0,10)
+  const dateStr = toLocalDateString(dateObj)
   return fullReadingPlan.find(r => r.date === dateStr)
 }
 
@@ -118,7 +127,8 @@ function App() {
   const [error, setError] = useState('')
   const [showVerseNumbers, setShowVerseNumbers] = useState(true)
   const [originalPassage, setOriginalPassage] = useState('')
-  const today = new Date()
+  // Use the user's system date for today
+  const today = new Date();
   const readingDate = new Date(today)
   readingDate.setDate(today.getDate() + offset)
   const reading = getReadingByDate(readingDate)
