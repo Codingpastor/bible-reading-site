@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:subdomain",
     "deploy": "npx gh-pages -d dist",
     "build:gh": "set VITE_BASE=/bible-reading-site/ && npm run build",
     "build:subdomain": "set VITE_BASE=/ && npm run build"

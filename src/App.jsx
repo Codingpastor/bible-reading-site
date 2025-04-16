@@ -143,7 +143,37 @@ function App() {
   const [timer, setTimer] = useState(0)
   const [timerActive, setTimerActive] = useState(false)
 
-  // Theme effect
+  // --- Load Preferences Effect ---
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('userTheme')
+    const savedFont = localStorage.getItem('userFont')
+    const savedFontSize = localStorage.getItem('userFontSize')
+    const savedParaSpacing = localStorage.getItem('userParaSpacing')
+
+    if (savedTheme && themeOptions.some(opt => opt.value === savedTheme)) {
+      setTheme(savedTheme)
+    }
+    if (savedFont && fontOptions.some(opt => opt.value === savedFont)) {
+      setFont(savedFont)
+    }
+    if (savedFontSize && fontSizeOptions.some(opt => opt.value === savedFontSize)) {
+      setFontSize(savedFontSize)
+    }
+    if (savedParaSpacing && paraSpacingOptions.some(opt => opt.value === savedParaSpacing)) {
+      setParaSpacing(savedParaSpacing)
+    }
+    // Indicate loading is complete for preferences (optional, if needed elsewhere)
+  }, []) // Empty dependency array means run only once on mount
+
+  // --- Save Preferences Effect ---
+  useEffect(() => {
+    localStorage.setItem('userTheme', theme)
+    localStorage.setItem('userFont', font)
+    localStorage.setItem('userFontSize', fontSize)
+    localStorage.setItem('userParaSpacing', paraSpacing)
+  }, [theme, font, fontSize, paraSpacing]) // Run whenever any of these change
+
+  // Theme visual effect
   useEffect(() => {
     document.body.classList.remove('theme-dark', 'theme-sepia')
     if (theme === 'dark') document.body.classList.add('theme-dark')
