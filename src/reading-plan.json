@@ -1,0 +1,4386 @@
+[
+  {
+    "dayOfYear": 1,
+    "reading": "Genesis 1, Matthew 1"
+  },
+  {
+    "dayOfYear": 2,
+    "reading": "Genesis 2"
+  },
+  {
+    "dayOfYear": 3,
+    "reading": "Genesis 3"
+  },
+  {
+    "dayOfYear": 4,
+    "reading": "Genesis 4, Matthew 2"
+  },
+  {
+    "dayOfYear": 5,
+    "reading": "Genesis 5"
+  },
+  {
+    "dayOfYear": 6,
+    "reading": "Genesis 6"
+  },
+  {
+    "dayOfYear": 7,
+    "reading": "Genesis 7"
+  },
+  {
+    "dayOfYear": 8,
+    "reading": "Genesis 8, Matthew 3"
+  },
+  {
+    "dayOfYear": 9,
+    "reading": "Genesis 9"
+  },
+  {
+    "dayOfYear": 10,
+    "reading": "Genesis 10"
+  },
+  {
+    "dayOfYear": 11,
+    "reading": "Genesis 11"
+  },
+  {
+    "dayOfYear": 12,
+    "reading": "Genesis 12, Matthew 4"
+  },
+  {
+    "dayOfYear": 13,
+    "reading": "Genesis 13"
+  },
+  {
+    "dayOfYear": 14,
+    "reading": "Genesis 14"
+  },
+  {
+    "dayOfYear": 15,
+    "reading": "Genesis 15"
+  },
+  {
+    "dayOfYear": 16,
+    "reading": "Genesis 16, Matthew 5"
+  },
+  {
+    "dayOfYear": 17,
+    "reading": "Genesis 17"
+  },
+  {
+    "dayOfYear": 18,
+    "reading": "Genesis 18"
+  },
+  {
+    "dayOfYear": 19,
+    "reading": "Genesis 19"
+  },
+  {
+    "dayOfYear": 20,
+    "reading": "Genesis 20, Matthew 6"
+  },
+  {
+    "dayOfYear": 21,
+    "reading": "Genesis 21"
+  },
+  {
+    "dayOfYear": 22,
+    "reading": "Genesis 22"
+  },
+  {
+    "dayOfYear": 23,
+    "reading": "Genesis 23"
+  },
+  {
+    "dayOfYear": 24,
+    "reading": "Genesis 24, Matthew 7"
+  },
+  {
+    "dayOfYear": 25,
+    "reading": "Genesis 25"
+  },
+  {
+    "dayOfYear": 26,
+    "reading": "Genesis 26"
+  },
+  {
+    "dayOfYear": 27,
+    "reading": "Genesis 27"
+  },
+  {
+    "dayOfYear": 28,
+    "reading": "Genesis 28, Matthew 8"
+  },
+  {
+    "dayOfYear": 29,
+    "reading": "Genesis 29"
+  },
+  {
+    "dayOfYear": 30,
+    "reading": "Genesis 30"
+  },
+  {
+    "dayOfYear": 31,
+    "reading": "Genesis 31"
+  },
+  {
+    "dayOfYear": 32,
+    "reading": "Genesis 32, Matthew 9"
+  },
+  {
+    "dayOfYear": 33,
+    "reading": "Genesis 33"
+  },
+  {
+    "dayOfYear": 34,
+    "reading": "Genesis 34"
+  },
+  {
+    "dayOfYear": 35,
+    "reading": "Genesis 35"
+  },
+  {
+    "dayOfYear": 36,
+    "reading": "Genesis 36, Matthew 10"
+  },
+  {
+    "dayOfYear": 37,
+    "reading": "Genesis 37"
+  },
+  {
+    "dayOfYear": 38,
+    "reading": "Genesis 38"
+  },
+  {
+    "dayOfYear": 39,
+    "reading": "Genesis 39"
+  },
+  {
+    "dayOfYear": 40,
+    "reading": "Genesis 40, Matthew 11"
+  },
+  {
+    "dayOfYear": 41,
+    "reading": "Genesis 41"
+  },
+  {
+    "dayOfYear": 42,
+    "reading": "Genesis 42"
+  },
+  {
+    "dayOfYear": 43,
+    "reading": "Genesis 43"
+  },
+  {
+    "dayOfYear": 44,
+    "reading": "Genesis 44, Matthew 12"
+  },
+  {
+    "dayOfYear": 45,
+    "reading": "Genesis 45"
+  },
+  {
+    "dayOfYear": 46,
+    "reading": "Genesis 46"
+  },
+  {
+    "dayOfYear": 47,
+    "reading": "Genesis 47"
+  },
+  {
+    "dayOfYear": 48,
+    "reading": "Genesis 48, Matthew 13"
+  },
+  {
+    "dayOfYear": 49,
+    "reading": "Genesis 49"
+  },
+  {
+    "dayOfYear": 50,
+    "reading": "Genesis 50"
+  },
+  {
+    "dayOfYear": 51,
+    "reading": "Exodus 1"
+  },
+  {
+    "dayOfYear": 52,
+    "reading": "Exodus 2, Matthew 14"
+  },
+  {
+    "dayOfYear": 53,
+    "reading": "Exodus 3"
+  },
+  {
+    "dayOfYear": 54,
+    "reading": "Exodus 4"
+  },
+  {
+    "dayOfYear": 55,
+    "reading": "Exodus 5"
+  },
+  {
+    "dayOfYear": 56,
+    "reading": "Exodus 6, Matthew 15"
+  },
+  {
+    "dayOfYear": 57,
+    "reading": "Exodus 7"
+  },
+  {
+    "dayOfYear": 58,
+    "reading": "Exodus 8"
+  },
+  {
+    "dayOfYear": 59,
+    "reading": "Exodus 9"
+  },
+  {
+    "dayOfYear": 60,
+    "reading": "Exodus 10, Matthew 16"
+  },
+  {
+    "dayOfYear": 61,
+    "reading": "Exodus 11"
+  },
+  {
+    "dayOfYear": 62,
+    "reading": "Exodus 12"
+  },
+  {
+    "dayOfYear": 63,
+    "reading": "Exodus 13"
+  },
+  {
+    "dayOfYear": 64,
+    "reading": "Exodus 14, Matthew 17"
+  },
+  {
+    "dayOfYear": 65,
+    "reading": "Exodus 15"
+  },
+  {
+    "dayOfYear": 66,
+    "reading": "Exodus 16"
+  },
+  {
+    "dayOfYear": 67,
+    "reading": "Exodus 17"
+  },
+  {
+    "dayOfYear": 68,
+    "reading": "Exodus 18, Matthew 18"
+  },
+  {
+    "dayOfYear": 69,
+    "reading": "Exodus 19"
+  },
+  {
+    "dayOfYear": 70,
+    "reading": "Exodus 20"
+  },
+  {
+    "dayOfYear": 71,
+    "reading": "Exodus 21"
+  },
+  {
+    "dayOfYear": 72,
+    "reading": "Exodus 22, Matthew 19"
+  },
+  {
+    "dayOfYear": 73,
+    "reading": "Exodus 23"
+  },
+  {
+    "dayOfYear": 74,
+    "reading": "Exodus 24"
+  },
+  {
+    "dayOfYear": 75,
+    "reading": "Exodus 25"
+  },
+  {
+    "dayOfYear": 76,
+    "reading": "Exodus 26, Matthew 20"
+  },
+  {
+    "dayOfYear": 77,
+    "reading": "Exodus 27"
+  },
+  {
+    "dayOfYear": 78,
+    "reading": "Exodus 28"
+  },
+  {
+    "dayOfYear": 79,
+    "reading": "Exodus 29"
+  },
+  {
+    "dayOfYear": 80,
+    "reading": "Exodus 30, Matthew 21"
+  },
+  {
+    "dayOfYear": 81,
+    "reading": "Exodus 31"
+  },
+  {
+    "dayOfYear": 82,
+    "reading": "Exodus 32"
+  },
+  {
+    "dayOfYear": 83,
+    "reading": "Exodus 33"
+  },
+  {
+    "dayOfYear": 84,
+    "reading": "Exodus 34, Matthew 22"
+  },
+  {
+    "dayOfYear": 85,
+    "reading": "Exodus 35"
+  },
+  {
+    "dayOfYear": 86,
+    "reading": "Exodus 36"
+  },
+  {
+    "dayOfYear": 87,
+    "reading": "Exodus 37"
+  },
+  {
+    "dayOfYear": 88,
+    "reading": "Exodus 38, Matthew 23"
+  },
+  {
+    "dayOfYear": 89,
+    "reading": "Exodus 39"
+  },
+  {
+    "dayOfYear": 90,
+    "reading": "Exodus 40"
+  },
+  {
+    "dayOfYear": 91,
+    "reading": "Leviticus 1"
+  },
+  {
+    "dayOfYear": 92,
+    "reading": "Leviticus 2, Matthew 24"
+  },
+  {
+    "dayOfYear": 93,
+    "reading": "Leviticus 3"
+  },
+  {
+    "dayOfYear": 94,
+    "reading": "Leviticus 4"
+  },
+  {
+    "dayOfYear": 95,
+    "reading": "Leviticus 5"
+  },
+  {
+    "dayOfYear": 96,
+    "reading": "Leviticus 6, Matthew 25"
+  },
+  {
+    "dayOfYear": 97,
+    "reading": "Leviticus 7"
+  },
+  {
+    "dayOfYear": 98,
+    "reading": "Leviticus 8"
+  },
+  {
+    "dayOfYear": 99,
+    "reading": "Leviticus 9"
+  },
+  {
+    "dayOfYear": 100,
+    "reading": "Leviticus 10, Matthew 26"
+  },
+  {
+    "dayOfYear": 101,
+    "reading": "Leviticus 11"
+  },
+  {
+    "dayOfYear": 102,
+    "reading": "Leviticus 12"
+  },
+  {
+    "dayOfYear": 103,
+    "reading": "Leviticus 13"
+  },
+  {
+    "dayOfYear": 104,
+    "reading": "Leviticus 14, Matthew 27"
+  },
+  {
+    "dayOfYear": 105,
+    "reading": "Leviticus 15"
+  },
+  {
+    "dayOfYear": 106,
+    "reading": "Leviticus 16"
+  },
+  {
+    "dayOfYear": 107,
+    "reading": "Leviticus 17"
+  },
+  {
+    "dayOfYear": 108,
+    "reading": "Leviticus 18, Matthew 28"
+  },
+  {
+    "dayOfYear": 109,
+    "reading": "Leviticus 19"
+  },
+  {
+    "dayOfYear": 110,
+    "reading": "Leviticus 20"
+  },
+  {
+    "dayOfYear": 111,
+    "reading": "Leviticus 21"
+  },
+  {
+    "dayOfYear": 112,
+    "reading": "Leviticus 22, Mark 1"
+  },
+  {
+    "dayOfYear": 113,
+    "reading": "Leviticus 23"
+  },
+  {
+    "dayOfYear": 114,
+    "reading": "Leviticus 24"
+  },
+  {
+    "dayOfYear": 115,
+    "reading": "Leviticus 25"
+  },
+  {
+    "dayOfYear": 116,
+    "reading": "Leviticus 26, Mark 2"
+  },
+  {
+    "dayOfYear": 117,
+    "reading": "Leviticus 27"
+  },
+  {
+    "dayOfYear": 118,
+    "reading": "Numbers 1"
+  },
+  {
+    "dayOfYear": 119,
+    "reading": "Numbers 2"
+  },
+  {
+    "dayOfYear": 120,
+    "reading": "Numbers 3, Mark 3"
+  },
+  {
+    "dayOfYear": 121,
+    "reading": "Numbers 4"
+  },
+  {
+    "dayOfYear": 122,
+    "reading": "Numbers 5"
+  },
+  {
+    "dayOfYear": 123,
+    "reading": "Numbers 6"
+  },
+  {
+    "dayOfYear": 124,
+    "reading": "Numbers 7, Mark 4"
+  },
+  {
+    "dayOfYear": 125,
+    "reading": "Numbers 8"
+  },
+  {
+    "dayOfYear": 126,
+    "reading": "Numbers 9"
+  },
+  {
+    "dayOfYear": 127,
+    "reading": "Numbers 10"
+  },
+  {
+    "dayOfYear": 128,
+    "reading": "Numbers 11, Mark 5"
+  },
+  {
+    "dayOfYear": 129,
+    "reading": "Numbers 12"
+  },
+  {
+    "dayOfYear": 130,
+    "reading": "Numbers 13"
+  },
+  {
+    "dayOfYear": 131,
+    "reading": "Numbers 14"
+  },
+  {
+    "dayOfYear": 132,
+    "reading": "Numbers 15, Mark 6"
+  },
+  {
+    "dayOfYear": 133,
+    "reading": "Numbers 16"
+  },
+  {
+    "dayOfYear": 134,
+    "reading": "Numbers 17"
+  },
+  {
+    "dayOfYear": 135,
+    "reading": "Numbers 18"
+  },
+  {
+    "dayOfYear": 136,
+    "reading": "Numbers 19, Mark 7"
+  },
+  {
+    "dayOfYear": 137,
+    "reading": "Numbers 20"
+  },
+  {
+    "dayOfYear": 138,
+    "reading": "Numbers 21"
+  },
+  {
+    "dayOfYear": 139,
+    "reading": "Numbers 22"
+  },
+  {
+    "dayOfYear": 140,
+    "reading": "Numbers 23, Mark 8"
+  },
+  {
+    "dayOfYear": 141,
+    "reading": "Numbers 24"
+  },
+  {
+    "dayOfYear": 142,
+    "reading": "Numbers 25"
+  },
+  {
+    "dayOfYear": 143,
+    "reading": "Numbers 26"
+  },
+  {
+    "dayOfYear": 144,
+    "reading": "Numbers 27, Mark 9"
+  },
+  {
+    "dayOfYear": 145,
+    "reading": "Numbers 28"
+  },
+  {
+    "dayOfYear": 146,
+    "reading": "Numbers 29"
+  },
+  {
+    "dayOfYear": 147,
+    "reading": "Numbers 30"
+  },
+  {
+    "dayOfYear": 148,
+    "reading": "Numbers 31, Mark 10"
+  },
+  {
+    "dayOfYear": 149,
+    "reading": "Numbers 32"
+  },
+  {
+    "dayOfYear": 150,
+    "reading": "Numbers 33"
+  },
+  {
+    "dayOfYear": 151,
+    "reading": "Numbers 34"
+  },
+  {
+    "dayOfYear": 152,
+    "reading": "Numbers 35, Mark 11"
+  },
+  {
+    "dayOfYear": 153,
+    "reading": "Numbers 36"
+  },
+  {
+    "dayOfYear": 154,
+    "reading": "Deuteronomy 1"
+  },
+  {
+    "dayOfYear": 155,
+    "reading": "Deuteronomy 2"
+  },
+  {
+    "dayOfYear": 156,
+    "reading": "Deuteronomy 3, Mark 12"
+  },
+  {
+    "dayOfYear": 157,
+    "reading": "Deuteronomy 4"
+  },
+  {
+    "dayOfYear": 158,
+    "reading": "Deuteronomy 5"
+  },
+  {
+    "dayOfYear": 159,
+    "reading": "Deuteronomy 6"
+  },
+  {
+    "dayOfYear": 160,
+    "reading": "Deuteronomy 7, Mark 13"
+  },
+  {
+    "dayOfYear": 161,
+    "reading": "Deuteronomy 8"
+  },
+  {
+    "dayOfYear": 162,
+    "reading": "Deuteronomy 9"
+  },
+  {
+    "dayOfYear": 163,
+    "reading": "Deuteronomy 10"
+  },
+  {
+    "dayOfYear": 164,
+    "reading": "Deuteronomy 11, Mark 14"
+  },
+  {
+    "dayOfYear": 165,
+    "reading": "Deuteronomy 12"
+  },
+  {
+    "dayOfYear": 166,
+    "reading": "Deuteronomy 13"
+  },
+  {
+    "dayOfYear": 167,
+    "reading": "Deuteronomy 14"
+  },
+  {
+    "dayOfYear": 168,
+    "reading": "Deuteronomy 15, Mark 15"
+  },
+  {
+    "dayOfYear": 169,
+    "reading": "Deuteronomy 16"
+  },
+  {
+    "dayOfYear": 170,
+    "reading": "Deuteronomy 17"
+  },
+  {
+    "dayOfYear": 171,
+    "reading": "Deuteronomy 18"
+  },
+  {
+    "dayOfYear": 172,
+    "reading": "Deuteronomy 19, Mark 16"
+  },
+  {
+    "dayOfYear": 173,
+    "reading": "Deuteronomy 20"
+  },
+  {
+    "dayOfYear": 174,
+    "reading": "Deuteronomy 21"
+  },
+  {
+    "dayOfYear": 175,
+    "reading": "Deuteronomy 22"
+  },
+  {
+    "dayOfYear": 176,
+    "reading": "Deuteronomy 23, Luke 1"
+  },
+  {
+    "dayOfYear": 177,
+    "reading": "Deuteronomy 24"
+  },
+  {
+    "dayOfYear": 178,
+    "reading": "Deuteronomy 25"
+  },
+  {
+    "dayOfYear": 179,
+    "reading": "Deuteronomy 26"
+  },
+  {
+    "dayOfYear": 180,
+    "reading": "Deuteronomy 27, Luke 2"
+  },
+  {
+    "dayOfYear": 181,
+    "reading": "Deuteronomy 28"
+  },
+  {
+    "dayOfYear": 182,
+    "reading": "Deuteronomy 29"
+  },
+  {
+    "dayOfYear": 183,
+    "reading": "Deuteronomy 30"
+  },
+  {
+    "dayOfYear": 184,
+    "reading": "Deuteronomy 31, Luke 3"
+  },
+  {
+    "dayOfYear": 185,
+    "reading": "Deuteronomy 32"
+  },
+  {
+    "dayOfYear": 186,
+    "reading": "Deuteronomy 33"
+  },
+  {
+    "dayOfYear": 187,
+    "reading": "Deuteronomy 34"
+  },
+  {
+    "dayOfYear": 188,
+    "reading": "Joshua 1, Luke 4"
+  },
+  {
+    "dayOfYear": 189,
+    "reading": "Joshua 2"
+  },
+  {
+    "dayOfYear": 190,
+    "reading": "Joshua 3"
+  },
+  {
+    "dayOfYear": 191,
+    "reading": "Joshua 4"
+  },
+  {
+    "dayOfYear": 192,
+    "reading": "Joshua 5, Luke 5"
+  },
+  {
+    "dayOfYear": 193,
+    "reading": "Joshua 6"
+  },
+  {
+    "dayOfYear": 194,
+    "reading": "Joshua 7"
+  },
+  {
+    "dayOfYear": 195,
+    "reading": "Joshua 8"
+  },
+  {
+    "dayOfYear": 196,
+    "reading": "Joshua 9, Luke 6"
+  },
+  {
+    "dayOfYear": 197,
+    "reading": "Joshua 10"
+  },
+  {
+    "dayOfYear": 198,
+    "reading": "Joshua 11"
+  },
+  {
+    "dayOfYear": 199,
+    "reading": "Joshua 12"
+  },
+  {
+    "dayOfYear": 200,
+    "reading": "Joshua 13, Luke 7"
+  },
+  {
+    "dayOfYear": 201,
+    "reading": "Joshua 14"
+  },
+  {
+    "dayOfYear": 202,
+    "reading": "Joshua 15"
+  },
+  {
+    "dayOfYear": 203,
+    "reading": "Joshua 16"
+  },
+  {
+    "dayOfYear": 204,
+    "reading": "Joshua 17, Luke 8"
+  },
+  {
+    "dayOfYear": 205,
+    "reading": "Joshua 18"
+  },
+  {
+    "dayOfYear": 206,
+    "reading": "Joshua 19"
+  },
+  {
+    "dayOfYear": 207,
+    "reading": "Joshua 20"
+  },
+  {
+    "dayOfYear": 208,
+    "reading": "Joshua 21, Luke 9"
+  },
+  {
+    "dayOfYear": 209,
+    "reading": "Joshua 22"
+  },
+  {
+    "dayOfYear": 210,
+    "reading": "Joshua 23"
+  },
+  {
+    "dayOfYear": 211,
+    "reading": "Joshua 24"
+  },
+  {
+    "dayOfYear": 212,
+    "reading": "Judges 1, Luke 10"
+  },
+  {
+    "dayOfYear": 213,
+    "reading": "Judges 2"
+  },
+  {
+    "dayOfYear": 214,
+    "reading": "Judges 3"
+  },
+  {
+    "dayOfYear": 215,
+    "reading": "Judges 4"
+  },
+  {
+    "dayOfYear": 216,
+    "reading": "Judges 5, Luke 11"
+  },
+  {
+    "dayOfYear": 217,
+    "reading": "Judges 6"
+  },
+  {
+    "dayOfYear": 218,
+    "reading": "Judges 7"
+  },
+  {
+    "dayOfYear": 219,
+    "reading": "Judges 8"
+  },
+  {
+    "dayOfYear": 220,
+    "reading": "Judges 9, Luke 12"
+  },
+  {
+    "dayOfYear": 221,
+    "reading": "Judges 10"
+  },
+  {
+    "dayOfYear": 222,
+    "reading": "Judges 11"
+  },
+  {
+    "dayOfYear": 223,
+    "reading": "Judges 12"
+  },
+  {
+    "dayOfYear": 224,
+    "reading": "Judges 13, Luke 13"
+  },
+  {
+    "dayOfYear": 225,
+    "reading": "Judges 14"
+  },
+  {
+    "dayOfYear": 226,
+    "reading": "Judges 15"
+  },
+  {
+    "dayOfYear": 227,
+    "reading": "Judges 16"
+  },
+  {
+    "dayOfYear": 228,
+    "reading": "Judges 17, Luke 14"
+  },
+  {
+    "dayOfYear": 229,
+    "reading": "Judges 18"
+  },
+  {
+    "dayOfYear": 230,
+    "reading": "Judges 19"
+  },
+  {
+    "dayOfYear": 231,
+    "reading": "Judges 20"
+  },
+  {
+    "dayOfYear": 232,
+    "reading": "Judges 21, Luke 15"
+  },
+  {
+    "dayOfYear": 233,
+    "reading": "Ruth 1"
+  },
+  {
+    "dayOfYear": 234,
+    "reading": "Ruth 2"
+  },
+  {
+    "dayOfYear": 235,
+    "reading": "Ruth 3"
+  },
+  {
+    "dayOfYear": 236,
+    "reading": "Ruth 4, Luke 16"
+  },
+  {
+    "dayOfYear": 237,
+    "reading": "1 Samuel 1"
+  },
+  {
+    "dayOfYear": 238,
+    "reading": "1 Samuel 2"
+  },
+  {
+    "dayOfYear": 239,
+    "reading": "1 Samuel 3"
+  },
+  {
+    "dayOfYear": 240,
+    "reading": "1 Samuel 4, Luke 17"
+  },
+  {
+    "dayOfYear": 241,
+    "reading": "1 Samuel 5"
+  },
+  {
+    "dayOfYear": 242,
+    "reading": "1 Samuel 6"
+  },
+  {
+    "dayOfYear": 243,
+    "reading": "1 Samuel 7"
+  },
+  {
+    "dayOfYear": 244,
+    "reading": "1 Samuel 8, Luke 18"
+  },
+  {
+    "dayOfYear": 245,
+    "reading": "1 Samuel 9"
+  },
+  {
+    "dayOfYear": 246,
+    "reading": "1 Samuel 10"
+  },
+  {
+    "dayOfYear": 247,
+    "reading": "1 Samuel 11"
+  },
+  {
+    "dayOfYear": 248,
+    "reading": "1 Samuel 12, Luke 19"
+  },
+  {
+    "dayOfYear": 249,
+    "reading": "1 Samuel 13"
+  },
+  {
+    "dayOfYear": 250,
+    "reading": "1 Samuel 14"
+  },
+  {
+    "dayOfYear": 251,
+    "reading": "1 Samuel 15"
+  },
+  {
+    "dayOfYear": 252,
+    "reading": "1 Samuel 16, Luke 20"
+  },
+  {
+    "dayOfYear": 253,
+    "reading": "1 Samuel 17"
+  },
+  {
+    "dayOfYear": 254,
+    "reading": "1 Samuel 18"
+  },
+  {
+    "dayOfYear": 255,
+    "reading": "1 Samuel 19"
+  },
+  {
+    "dayOfYear": 256,
+    "reading": "1 Samuel 20, Luke 21"
+  },
+  {
+    "dayOfYear": 257,
+    "reading": "1 Samuel 21"
+  },
+  {
+    "dayOfYear": 258,
+    "reading": "1 Samuel 22"
+  },
+  {
+    "dayOfYear": 259,
+    "reading": "1 Samuel 23"
+  },
+  {
+    "dayOfYear": 260,
+    "reading": "1 Samuel 24, Luke 22"
+  },
+  {
+    "dayOfYear": 261,
+    "reading": "1 Samuel 25"
+  },
+  {
+    "dayOfYear": 262,
+    "reading": "1 Samuel 26"
+  },
+  {
+    "dayOfYear": 263,
+    "reading": "1 Samuel 27"
+  },
+  {
+    "dayOfYear": 264,
+    "reading": "1 Samuel 28, Luke 23"
+  },
+  {
+    "dayOfYear": 265,
+    "reading": "1 Samuel 29"
+  },
+  {
+    "dayOfYear": 266,
+    "reading": "1 Samuel 30"
+  },
+  {
+    "dayOfYear": 267,
+    "reading": "1 Samuel 31"
+  },
+  {
+    "dayOfYear": 268,
+    "reading": "2 Samuel 1, Luke 24"
+  },
+  {
+    "dayOfYear": 269,
+    "reading": "2 Samuel 2"
+  },
+  {
+    "dayOfYear": 270,
+    "reading": "2 Samuel 3"
+  },
+  {
+    "dayOfYear": 271,
+    "reading": "2 Samuel 4"
+  },
+  {
+    "dayOfYear": 272,
+    "reading": "2 Samuel 5, John 1"
+  },
+  {
+    "dayOfYear": 273,
+    "reading": "2 Samuel 6"
+  },
+  {
+    "dayOfYear": 274,
+    "reading": "2 Samuel 7"
+  },
+  {
+    "dayOfYear": 275,
+    "reading": "2 Samuel 8"
+  },
+  {
+    "dayOfYear": 276,
+    "reading": "2 Samuel 9, John 2"
+  },
+  {
+    "dayOfYear": 277,
+    "reading": "2 Samuel 10"
+  },
+  {
+    "dayOfYear": 278,
+    "reading": "2 Samuel 11"
+  },
+  {
+    "dayOfYear": 279,
+    "reading": "2 Samuel 12"
+  },
+  {
+    "dayOfYear": 280,
+    "reading": "2 Samuel 13, John 3"
+  },
+  {
+    "dayOfYear": 281,
+    "reading": "2 Samuel 14"
+  },
+  {
+    "dayOfYear": 282,
+    "reading": "2 Samuel 15"
+  },
+  {
+    "dayOfYear": 283,
+    "reading": "2 Samuel 16"
+  },
+  {
+    "dayOfYear": 284,
+    "reading": "2 Samuel 17, John 4"
+  },
+  {
+    "dayOfYear": 285,
+    "reading": "2 Samuel 18"
+  },
+  {
+    "dayOfYear": 286,
+    "reading": "2 Samuel 19"
+  },
+  {
+    "dayOfYear": 287,
+    "reading": "2 Samuel 20"
+  },
+  {
+    "dayOfYear": 288,
+    "reading": "2 Samuel 21, John 5"
+  },
+  {
+    "dayOfYear": 289,
+    "reading": "2 Samuel 22"
+  },
+  {
+    "dayOfYear": 290,
+    "reading": "2 Samuel 23"
+  },
+  {
+    "dayOfYear": 291,
+    "reading": "2 Samuel 24"
+  },
+  {
+    "dayOfYear": 292,
+    "reading": "1 Kings 1, John 6"
+  },
+  {
+    "dayOfYear": 293,
+    "reading": "1 Kings 2"
+  },
+  {
+    "dayOfYear": 294,
+    "reading": "1 Kings 3"
+  },
+  {
+    "dayOfYear": 295,
+    "reading": "1 Kings 4"
+  },
+  {
+    "dayOfYear": 296,
+    "reading": "1 Kings 5, John 7"
+  },
+  {
+    "dayOfYear": 297,
+    "reading": "1 Kings 6"
+  },
+  {
+    "dayOfYear": 298,
+    "reading": "1 Kings 7"
+  },
+  {
+    "dayOfYear": 299,
+    "reading": "1 Kings 8"
+  },
+  {
+    "dayOfYear": 300,
+    "reading": "1 Kings 9, John 8"
+  },
+  {
+    "dayOfYear": 301,
+    "reading": "1 Kings 10"
+  },
+  {
+    "dayOfYear": 302,
+    "reading": "1 Kings 11"
+  },
+  {
+    "dayOfYear": 303,
+    "reading": "1 Kings 12"
+  },
+  {
+    "dayOfYear": 304,
+    "reading": "1 Kings 13, John 9"
+  },
+  {
+    "dayOfYear": 305,
+    "reading": "1 Kings 14"
+  },
+  {
+    "dayOfYear": 306,
+    "reading": "1 Kings 15"
+  },
+  {
+    "dayOfYear": 307,
+    "reading": "1 Kings 16"
+  },
+  {
+    "dayOfYear": 308,
+    "reading": "1 Kings 17, John 10"
+  },
+  {
+    "dayOfYear": 309,
+    "reading": "1 Kings 18"
+  },
+  {
+    "dayOfYear": 310,
+    "reading": "1 Kings 19"
+  },
+  {
+    "dayOfYear": 311,
+    "reading": "1 Kings 20"
+  },
+  {
+    "dayOfYear": 312,
+    "reading": "1 Kings 21, John 11"
+  },
+  {
+    "dayOfYear": 313,
+    "reading": "1 Kings 22"
+  },
+  {
+    "dayOfYear": 314,
+    "reading": "2 Kings 1"
+  },
+  {
+    "dayOfYear": 315,
+    "reading": "2 Kings 2"
+  },
+  {
+    "dayOfYear": 316,
+    "reading": "2 Kings 3, John 12"
+  },
+  {
+    "dayOfYear": 317,
+    "reading": "2 Kings 4"
+  },
+  {
+    "dayOfYear": 318,
+    "reading": "2 Kings 5"
+  },
+  {
+    "dayOfYear": 319,
+    "reading": "2 Kings 6"
+  },
+  {
+    "dayOfYear": 320,
+    "reading": "2 Kings 7, John 13"
+  },
+  {
+    "dayOfYear": 321,
+    "reading": "2 Kings 8"
+  },
+  {
+    "dayOfYear": 322,
+    "reading": "2 Kings 9"
+  },
+  {
+    "dayOfYear": 323,
+    "reading": "2 Kings 10"
+  },
+  {
+    "dayOfYear": 324,
+    "reading": "2 Kings 11, John 14"
+  },
+  {
+    "dayOfYear": 325,
+    "reading": "2 Kings 12"
+  },
+  {
+    "dayOfYear": 326,
+    "reading": "2 Kings 13"
+  },
+  {
+    "dayOfYear": 327,
+    "reading": "2 Kings 14"
+  },
+  {
+    "dayOfYear": 328,
+    "reading": "2 Kings 15, John 15"
+  },
+  {
+    "dayOfYear": 329,
+    "reading": "2 Kings 16"
+  },
+  {
+    "dayOfYear": 330,
+    "reading": "2 Kings 17"
+  },
+  {
+    "dayOfYear": 331,
+    "reading": "2 Kings 18"
+  },
+  {
+    "dayOfYear": 332,
+    "reading": "2 Kings 19, John 16"
+  },
+  {
+    "dayOfYear": 333,
+    "reading": "2 Kings 20"
+  },
+  {
+    "dayOfYear": 334,
+    "reading": "2 Kings 21"
+  },
+  {
+    "dayOfYear": 335,
+    "reading": "2 Kings 22"
+  },
+  {
+    "dayOfYear": 336,
+    "reading": "2 Kings 23, John 17"
+  },
+  {
+    "dayOfYear": 337,
+    "reading": "2 Kings 24"
+  },
+  {
+    "dayOfYear": 338,
+    "reading": "2 Kings 25"
+  },
+  {
+    "dayOfYear": 339,
+    "reading": "1 Chronicles 1"
+  },
+  {
+    "dayOfYear": 340,
+    "reading": "1 Chronicles 2, John 18"
+  },
+  {
+    "dayOfYear": 341,
+    "reading": "1 Chronicles 3"
+  },
+  {
+    "dayOfYear": 342,
+    "reading": "1 Chronicles 4"
+  },
+  {
+    "dayOfYear": 343,
+    "reading": "1 Chronicles 5"
+  },
+  {
+    "dayOfYear": 344,
+    "reading": "1 Chronicles 6, John 19"
+  },
+  {
+    "dayOfYear": 345,
+    "reading": "1 Chronicles 7"
+  },
+  {
+    "dayOfYear": 346,
+    "reading": "1 Chronicles 8"
+  },
+  {
+    "dayOfYear": 347,
+    "reading": "1 Chronicles 9"
+  },
+  {
+    "dayOfYear": 348,
+    "reading": "1 Chronicles 10, John 20"
+  },
+  {
+    "dayOfYear": 349,
+    "reading": "1 Chronicles 11"
+  },
+  {
+    "dayOfYear": 350,
+    "reading": "1 Chronicles 12"
+  },
+  {
+    "dayOfYear": 351,
+    "reading": "1 Chronicles 13"
+  },
+  {
+    "dayOfYear": 352,
+    "reading": "1 Chronicles 14, John 21"
+  },
+  {
+    "dayOfYear": 353,
+    "reading": "1 Chronicles 15"
+  },
+  {
+    "dayOfYear": 354,
+    "reading": "1 Chronicles 16"
+  },
+  {
+    "dayOfYear": 355,
+    "reading": "1 Chronicles 17"
+  },
+  {
+    "dayOfYear": 356,
+    "reading": "1 Chronicles 18, Acts 1"
+  },
+  {
+    "dayOfYear": 357,
+    "reading": "1 Chronicles 19"
+  },
+  {
+    "dayOfYear": 358,
+    "reading": "1 Chronicles 20"
+  },
+  {
+    "dayOfYear": 359,
+    "reading": "1 Chronicles 21"
+  },
+  {
+    "dayOfYear": 360,
+    "reading": "1 Chronicles 22, Acts 2"
+  },
+  {
+    "dayOfYear": 361,
+    "reading": "1 Chronicles 23"
+  },
+  {
+    "dayOfYear": 362,
+    "reading": "1 Chronicles 24"
+  },
+  {
+    "dayOfYear": 363,
+    "reading": "1 Chronicles 25"
+  },
+  {
+    "dayOfYear": 364,
+    "reading": "1 Chronicles 26, Acts 3"
+  },
+  {
+    "dayOfYear": 365,
+    "reading": "1 Chronicles 27"
+  },
+  {
+    "dayOfYear": 366,
+    "reading": "1 Chronicles 28"
+  },
+  {
+    "dayOfYear": 367,
+    "reading": "1 Chronicles 29"
+  },
+  {
+    "dayOfYear": 368,
+    "reading": "2 Chronicles 1, Acts 4"
+  },
+  {
+    "dayOfYear": 369,
+    "reading": "2 Chronicles 2"
+  },
+  {
+    "dayOfYear": 370,
+    "reading": "2 Chronicles 3"
+  },
+  {
+    "dayOfYear": 371,
+    "reading": "2 Chronicles 4"
+  },
+  {
+    "dayOfYear": 372,
+    "reading": "2 Chronicles 5, Acts 5"
+  },
+  {
+    "dayOfYear": 373,
+    "reading": "2 Chronicles 6"
+  },
+  {
+    "dayOfYear": 374,
+    "reading": "2 Chronicles 7"
+  },
+  {
+    "dayOfYear": 375,
+    "reading": "2 Chronicles 8"
+  },
+  {
+    "dayOfYear": 376,
+    "reading": "2 Chronicles 9, Acts 6"
+  },
+  {
+    "dayOfYear": 377,
+    "reading": "2 Chronicles 10"
+  },
+  {
+    "dayOfYear": 378,
+    "reading": "2 Chronicles 11"
+  },
+  {
+    "dayOfYear": 379,
+    "reading": "2 Chronicles 12"
+  },
+  {
+    "dayOfYear": 380,
+    "reading": "2 Chronicles 13, Acts 7"
+  },
+  {
+    "dayOfYear": 381,
+    "reading": "2 Chronicles 14"
+  },
+  {
+    "dayOfYear": 382,
+    "reading": "2 Chronicles 15"
+  },
+  {
+    "dayOfYear": 383,
+    "reading": "2 Chronicles 16"
+  },
+  {
+    "dayOfYear": 384,
+    "reading": "2 Chronicles 17, Acts 8"
+  },
+  {
+    "dayOfYear": 385,
+    "reading": "2 Chronicles 18"
+  },
+  {
+    "dayOfYear": 386,
+    "reading": "2 Chronicles 19"
+  },
+  {
+    "dayOfYear": 387,
+    "reading": "2 Chronicles 20"
+  },
+  {
+    "dayOfYear": 388,
+    "reading": "2 Chronicles 21, Acts 9"
+  },
+  {
+    "dayOfYear": 389,
+    "reading": "2 Chronicles 22"
+  },
+  {
+    "dayOfYear": 390,
+    "reading": "2 Chronicles 23"
+  },
+  {
+    "dayOfYear": 391,
+    "reading": "2 Chronicles 24"
+  },
+  {
+    "dayOfYear": 392,
+    "reading": "2 Chronicles 25, Acts 10"
+  },
+  {
+    "dayOfYear": 393,
+    "reading": "2 Chronicles 26"
+  },
+  {
+    "dayOfYear": 394,
+    "reading": "2 Chronicles 27"
+  },
+  {
+    "dayOfYear": 395,
+    "reading": "2 Chronicles 28"
+  },
+  {
+    "dayOfYear": 396,
+    "reading": "2 Chronicles 29, Acts 11"
+  },
+  {
+    "dayOfYear": 397,
+    "reading": "2 Chronicles 30"
+  },
+  {
+    "dayOfYear": 398,
+    "reading": "2 Chronicles 31"
+  },
+  {
+    "dayOfYear": 399,
+    "reading": "2 Chronicles 32"
+  },
+  {
+    "dayOfYear": 400,
+    "reading": "2 Chronicles 33, Acts 12"
+  },
+  {
+    "dayOfYear": 401,
+    "reading": "2 Chronicles 34"
+  },
+  {
+    "dayOfYear": 402,
+    "reading": "2 Chronicles 35"
+  },
+  {
+    "dayOfYear": 403,
+    "reading": "2 Chronicles 36"
+  },
+  {
+    "dayOfYear": 404,
+    "reading": "Ezra 1, Acts 13"
+  },
+  {
+    "dayOfYear": 405,
+    "reading": "Ezra 2"
+  },
+  {
+    "dayOfYear": 406,
+    "reading": "Ezra 3"
+  },
+  {
+    "dayOfYear": 407,
+    "reading": "Ezra 4"
+  },
+  {
+    "dayOfYear": 408,
+    "reading": "Ezra 5, Acts 14"
+  },
+  {
+    "dayOfYear": 409,
+    "reading": "Ezra 6"
+  },
+  {
+    "dayOfYear": 410,
+    "reading": "Ezra 7"
+  },
+  {
+    "dayOfYear": 411,
+    "reading": "Ezra 8"
+  },
+  {
+    "dayOfYear": 412,
+    "reading": "Ezra 9, Acts 15"
+  },
+  {
+    "dayOfYear": 413,
+    "reading": "Ezra 10"
+  },
+  {
+    "dayOfYear": 414,
+    "reading": "Nehemiah 1"
+  },
+  {
+    "dayOfYear": 415,
+    "reading": "Nehemiah 2"
+  },
+  {
+    "dayOfYear": 416,
+    "reading": "Nehemiah 3, Acts 16"
+  },
+  {
+    "dayOfYear": 417,
+    "reading": "Nehemiah 4"
+  },
+  {
+    "dayOfYear": 418,
+    "reading": "Nehemiah 5"
+  },
+  {
+    "dayOfYear": 419,
+    "reading": "Nehemiah 6"
+  },
+  {
+    "dayOfYear": 420,
+    "reading": "Nehemiah 7, Acts 17"
+  },
+  {
+    "dayOfYear": 421,
+    "reading": "Nehemiah 8"
+  },
+  {
+    "dayOfYear": 422,
+    "reading": "Nehemiah 9"
+  },
+  {
+    "dayOfYear": 423,
+    "reading": "Nehemiah 10"
+  },
+  {
+    "dayOfYear": 424,
+    "reading": "Nehemiah 11, Acts 18"
+  },
+  {
+    "dayOfYear": 425,
+    "reading": "Nehemiah 12"
+  },
+  {
+    "dayOfYear": 426,
+    "reading": "Nehemiah 13"
+  },
+  {
+    "dayOfYear": 427,
+    "reading": "Esther 1"
+  },
+  {
+    "dayOfYear": 428,
+    "reading": "Esther 2, Acts 19"
+  },
+  {
+    "dayOfYear": 429,
+    "reading": "Esther 3"
+  },
+  {
+    "dayOfYear": 430,
+    "reading": "Esther 4"
+  },
+  {
+    "dayOfYear": 431,
+    "reading": "Esther 5"
+  },
+  {
+    "dayOfYear": 432,
+    "reading": "Esther 6, Acts 20"
+  },
+  {
+    "dayOfYear": 433,
+    "reading": "Esther 7"
+  },
+  {
+    "dayOfYear": 434,
+    "reading": "Esther 8"
+  },
+  {
+    "dayOfYear": 435,
+    "reading": "Esther 9"
+  },
+  {
+    "dayOfYear": 436,
+    "reading": "Esther 10, Acts 21"
+  },
+  {
+    "dayOfYear": 437,
+    "reading": "Job 1"
+  },
+  {
+    "dayOfYear": 438,
+    "reading": "Job 2"
+  },
+  {
+    "dayOfYear": 439,
+    "reading": "Job 3"
+  },
+  {
+    "dayOfYear": 440,
+    "reading": "Job 4, Acts 22"
+  },
+  {
+    "dayOfYear": 441,
+    "reading": "Job 5"
+  },
+  {
+    "dayOfYear": 442,
+    "reading": "Job 6"
+  },
+  {
+    "dayOfYear": 443,
+    "reading": "Job 7"
+  },
+  {
+    "dayOfYear": 444,
+    "reading": "Job 8, Acts 23"
+  },
+  {
+    "dayOfYear": 445,
+    "reading": "Job 9"
+  },
+  {
+    "dayOfYear": 446,
+    "reading": "Job 10"
+  },
+  {
+    "dayOfYear": 447,
+    "reading": "Job 11"
+  },
+  {
+    "dayOfYear": 448,
+    "reading": "Job 12, Acts 24"
+  },
+  {
+    "dayOfYear": 449,
+    "reading": "Job 13"
+  },
+  {
+    "dayOfYear": 450,
+    "reading": "Job 14"
+  },
+  {
+    "dayOfYear": 451,
+    "reading": "Job 15"
+  },
+  {
+    "dayOfYear": 452,
+    "reading": "Job 16, Acts 25"
+  },
+  {
+    "dayOfYear": 453,
+    "reading": "Job 17"
+  },
+  {
+    "dayOfYear": 454,
+    "reading": "Job 18"
+  },
+  {
+    "dayOfYear": 455,
+    "reading": "Job 19"
+  },
+  {
+    "dayOfYear": 456,
+    "reading": "Job 20, Acts 26"
+  },
+  {
+    "dayOfYear": 457,
+    "reading": "Job 21"
+  },
+  {
+    "dayOfYear": 458,
+    "reading": "Job 22"
+  },
+  {
+    "dayOfYear": 459,
+    "reading": "Job 23"
+  },
+  {
+    "dayOfYear": 460,
+    "reading": "Job 24, Acts 27"
+  },
+  {
+    "dayOfYear": 461,
+    "reading": "Job 25"
+  },
+  {
+    "dayOfYear": 462,
+    "reading": "Job 26"
+  },
+  {
+    "dayOfYear": 463,
+    "reading": "Job 27"
+  },
+  {
+    "dayOfYear": 464,
+    "reading": "Job 28, Acts 28"
+  },
+  {
+    "dayOfYear": 465,
+    "reading": "Job 29"
+  },
+  {
+    "dayOfYear": 466,
+    "reading": "Job 30"
+  },
+  {
+    "dayOfYear": 467,
+    "reading": "Job 31"
+  },
+  {
+    "dayOfYear": 468,
+    "reading": "Job 32, Romans 1"
+  },
+  {
+    "dayOfYear": 469,
+    "reading": "Job 33"
+  },
+  {
+    "dayOfYear": 470,
+    "reading": "Job 34"
+  },
+  {
+    "dayOfYear": 471,
+    "reading": "Job 35"
+  },
+  {
+    "dayOfYear": 472,
+    "reading": "Job 36, Romans 2"
+  },
+  {
+    "dayOfYear": 473,
+    "reading": "Job 37"
+  },
+  {
+    "dayOfYear": 474,
+    "reading": "Job 38"
+  },
+  {
+    "dayOfYear": 475,
+    "reading": "Job 39"
+  },
+  {
+    "dayOfYear": 476,
+    "reading": "Job 40, Romans 3"
+  },
+  {
+    "dayOfYear": 477,
+    "reading": "Job 41"
+  },
+  {
+    "dayOfYear": 478,
+    "reading": "Job 42"
+  },
+  {
+    "dayOfYear": 479,
+    "reading": "Psalms 1"
+  },
+  {
+    "dayOfYear": 480,
+    "reading": "Psalms 2, Romans 4"
+  },
+  {
+    "dayOfYear": 481,
+    "reading": "Psalms 3"
+  },
+  {
+    "dayOfYear": 482,
+    "reading": "Psalms 4"
+  },
+  {
+    "dayOfYear": 483,
+    "reading": "Psalms 5"
+  },
+  {
+    "dayOfYear": 484,
+    "reading": "Psalms 6, Romans 5"
+  },
+  {
+    "dayOfYear": 485,
+    "reading": "Psalms 7"
+  },
+  {
+    "dayOfYear": 486,
+    "reading": "Psalms 8"
+  },
+  {
+    "dayOfYear": 487,
+    "reading": "Psalms 9"
+  },
+  {
+    "dayOfYear": 488,
+    "reading": "Psalms 10, Romans 6"
+  },
+  {
+    "dayOfYear": 489,
+    "reading": "Psalms 11"
+  },
+  {
+    "dayOfYear": 490,
+    "reading": "Psalms 12"
+  },
+  {
+    "dayOfYear": 491,
+    "reading": "Psalms 13"
+  },
+  {
+    "dayOfYear": 492,
+    "reading": "Psalms 14, Romans 7"
+  },
+  {
+    "dayOfYear": 493,
+    "reading": "Psalms 15"
+  },
+  {
+    "dayOfYear": 494,
+    "reading": "Psalms 16"
+  },
+  {
+    "dayOfYear": 495,
+    "reading": "Psalms 17"
+  },
+  {
+    "dayOfYear": 496,
+    "reading": "Psalms 18, Romans 8"
+  },
+  {
+    "dayOfYear": 497,
+    "reading": "Psalms 19"
+  },
+  {
+    "dayOfYear": 498,
+    "reading": "Psalms 20"
+  },
+  {
+    "dayOfYear": 499,
+    "reading": "Psalms 21"
+  },
+  {
+    "dayOfYear": 500,
+    "reading": "Psalms 22, Romans 9"
+  },
+  {
+    "dayOfYear": 501,
+    "reading": "Psalms 23"
+  },
+  {
+    "dayOfYear": 502,
+    "reading": "Psalms 24"
+  },
+  {
+    "dayOfYear": 503,
+    "reading": "Psalms 25"
+  },
+  {
+    "dayOfYear": 504,
+    "reading": "Psalms 26, Romans 10"
+  },
+  {
+    "dayOfYear": 505,
+    "reading": "Psalms 27"
+  },
+  {
+    "dayOfYear": 506,
+    "reading": "Psalms 28"
+  },
+  {
+    "dayOfYear": 507,
+    "reading": "Psalms 29"
+  },
+  {
+    "dayOfYear": 508,
+    "reading": "Psalms 30, Romans 11"
+  },
+  {
+    "dayOfYear": 509,
+    "reading": "Psalms 31"
+  },
+  {
+    "dayOfYear": 510,
+    "reading": "Psalms 32"
+  },
+  {
+    "dayOfYear": 511,
+    "reading": "Psalms 33"
+  },
+  {
+    "dayOfYear": 512,
+    "reading": "Psalms 34, Romans 12"
+  },
+  {
+    "dayOfYear": 513,
+    "reading": "Psalms 35"
+  },
+  {
+    "dayOfYear": 514,
+    "reading": "Psalms 36"
+  },
+  {
+    "dayOfYear": 515,
+    "reading": "Psalms 37"
+  },
+  {
+    "dayOfYear": 516,
+    "reading": "Psalms 38, Romans 13"
+  },
+  {
+    "dayOfYear": 517,
+    "reading": "Psalms 39"
+  },
+  {
+    "dayOfYear": 518,
+    "reading": "Psalms 40"
+  },
+  {
+    "dayOfYear": 519,
+    "reading": "Psalms 41"
+  },
+  {
+    "dayOfYear": 520,
+    "reading": "Psalms 42, Romans 14"
+  },
+  {
+    "dayOfYear": 521,
+    "reading": "Psalms 43"
+  },
+  {
+    "dayOfYear": 522,
+    "reading": "Psalms 44"
+  },
+  {
+    "dayOfYear": 523,
+    "reading": "Psalms 45"
+  },
+  {
+    "dayOfYear": 524,
+    "reading": "Psalms 46, Romans 15"
+  },
+  {
+    "dayOfYear": 525,
+    "reading": "Psalms 47"
+  },
+  {
+    "dayOfYear": 526,
+    "reading": "Psalms 48"
+  },
+  {
+    "dayOfYear": 527,
+    "reading": "Psalms 49"
+  },
+  {
+    "dayOfYear": 528,
+    "reading": "Psalms 50, Romans 16"
+  },
+  {
+    "dayOfYear": 529,
+    "reading": "Psalms 51"
+  },
+  {
+    "dayOfYear": 530,
+    "reading": "Psalms 52"
+  },
+  {
+    "dayOfYear": 531,
+    "reading": "Psalms 53"
+  },
+  {
+    "dayOfYear": 532,
+    "reading": "Psalms 54, 1 Corinthians 1"
+  },
+  {
+    "dayOfYear": 533,
+    "reading": "Psalms 55"
+  },
+  {
+    "dayOfYear": 534,
+    "reading": "Psalms 56"
+  },
+  {
+    "dayOfYear": 535,
+    "reading": "Psalms 57"
+  },
+  {
+    "dayOfYear": 536,
+    "reading": "Psalms 58, 1 Corinthians 2"
+  },
+  {
+    "dayOfYear": 537,
+    "reading": "Psalms 59"
+  },
+  {
+    "dayOfYear": 538,
+    "reading": "Psalms 60"
+  },
+  {
+    "dayOfYear": 539,
+    "reading": "Psalms 61"
+  },
+  {
+    "dayOfYear": 540,
+    "reading": "Psalms 62, 1 Corinthians 3"
+  },
+  {
+    "dayOfYear": 541,
+    "reading": "Psalms 63"
+  },
+  {
+    "dayOfYear": 542,
+    "reading": "Psalms 64"
+  },
+  {
+    "dayOfYear": 543,
+    "reading": "Psalms 65"
+  },
+  {
+    "dayOfYear": 544,
+    "reading": "Psalms 66, 1 Corinthians 4"
+  },
+  {
+    "dayOfYear": 545,
+    "reading": "Psalms 67"
+  },
+  {
+    "dayOfYear": 546,
+    "reading": "Psalms 68"
+  },
+  {
+    "dayOfYear": 547,
+    "reading": "Psalms 69"
+  },
+  {
+    "dayOfYear": 548,
+    "reading": "Psalms 70, 1 Corinthians 5"
+  },
+  {
+    "dayOfYear": 549,
+    "reading": "Psalms 71"
+  },
+  {
+    "dayOfYear": 550,
+    "reading": "Psalms 72"
+  },
+  {
+    "dayOfYear": 551,
+    "reading": "Psalms 73"
+  },
+  {
+    "dayOfYear": 552,
+    "reading": "Psalms 74, 1 Corinthians 6"
+  },
+  {
+    "dayOfYear": 553,
+    "reading": "Psalms 75"
+  },
+  {
+    "dayOfYear": 554,
+    "reading": "Psalms 76"
+  },
+  {
+    "dayOfYear": 555,
+    "reading": "Psalms 77"
+  },
+  {
+    "dayOfYear": 556,
+    "reading": "Psalms 78, 1 Corinthians 7"
+  },
+  {
+    "dayOfYear": 557,
+    "reading": "Psalms 79"
+  },
+  {
+    "dayOfYear": 558,
+    "reading": "Psalms 80"
+  },
+  {
+    "dayOfYear": 559,
+    "reading": "Psalms 81"
+  },
+  {
+    "dayOfYear": 560,
+    "reading": "Psalms 82, 1 Corinthians 8"
+  },
+  {
+    "dayOfYear": 561,
+    "reading": "Psalms 83"
+  },
+  {
+    "dayOfYear": 562,
+    "reading": "Psalms 84"
+  },
+  {
+    "dayOfYear": 563,
+    "reading": "Psalms 85"
+  },
+  {
+    "dayOfYear": 564,
+    "reading": "Psalms 86, 1 Corinthians 9"
+  },
+  {
+    "dayOfYear": 565,
+    "reading": "Psalms 87"
+  },
+  {
+    "dayOfYear": 566,
+    "reading": "Psalms 88"
+  },
+  {
+    "dayOfYear": 567,
+    "reading": "Psalms 89"
+  },
+  {
+    "dayOfYear": 568,
+    "reading": "Psalms 90, 1 Corinthians 10"
+  },
+  {
+    "dayOfYear": 569,
+    "reading": "Psalms 91"
+  },
+  {
+    "dayOfYear": 570,
+    "reading": "Psalms 92"
+  },
+  {
+    "dayOfYear": 571,
+    "reading": "Psalms 93"
+  },
+  {
+    "dayOfYear": 572,
+    "reading": "Psalms 94, 1 Corinthians 11"
+  },
+  {
+    "dayOfYear": 573,
+    "reading": "Psalms 95"
+  },
+  {
+    "dayOfYear": 574,
+    "reading": "Psalms 96"
+  },
+  {
+    "dayOfYear": 575,
+    "reading": "Psalms 97"
+  },
+  {
+    "dayOfYear": 576,
+    "reading": "Psalms 98, 1 Corinthians 12"
+  },
+  {
+    "dayOfYear": 577,
+    "reading": "Psalms 99"
+  },
+  {
+    "dayOfYear": 578,
+    "reading": "Psalms 100"
+  },
+  {
+    "dayOfYear": 579,
+    "reading": "Psalms 101"
+  },
+  {
+    "dayOfYear": 580,
+    "reading": "Psalms 102, 1 Corinthians 13"
+  },
+  {
+    "dayOfYear": 581,
+    "reading": "Psalms 103"
+  },
+  {
+    "dayOfYear": 582,
+    "reading": "Psalms 104"
+  },
+  {
+    "dayOfYear": 583,
+    "reading": "Psalms 105"
+  },
+  {
+    "dayOfYear": 584,
+    "reading": "Psalms 106, 1 Corinthians 14"
+  },
+  {
+    "dayOfYear": 585,
+    "reading": "Psalms 107"
+  },
+  {
+    "dayOfYear": 586,
+    "reading": "Psalms 108"
+  },
+  {
+    "dayOfYear": 587,
+    "reading": "Psalms 109"
+  },
+  {
+    "dayOfYear": 588,
+    "reading": "Psalms 110, 1 Corinthians 15"
+  },
+  {
+    "dayOfYear": 589,
+    "reading": "Psalms 111"
+  },
+  {
+    "dayOfYear": 590,
+    "reading": "Psalms 112"
+  },
+  {
+    "dayOfYear": 591,
+    "reading": "Psalms 113"
+  },
+  {
+    "dayOfYear": 592,
+    "reading": "Psalms 114, 1 Corinthians 16"
+  },
+  {
+    "dayOfYear": 593,
+    "reading": "Psalms 115"
+  },
+  {
+    "dayOfYear": 594,
+    "reading": "Psalms 116"
+  },
+  {
+    "dayOfYear": 595,
+    "reading": "Psalms 117"
+  },
+  {
+    "dayOfYear": 596,
+    "reading": "Psalms 118, 2 Corinthians 1"
+  },
+  {
+    "dayOfYear": 597,
+    "reading": "Psalms 119:1-32"
+  },
+  {
+    "dayOfYear": 598,
+    "reading": "Psalms 119:33-64"
+  },
+  {
+    "dayOfYear": 599,
+    "reading": "Psalms 119:65-96"
+  },
+  {
+    "dayOfYear": 600,
+    "reading": "Psalms 119:97-128, 2 Corinthians 2"
+  },
+  {
+    "dayOfYear": 601,
+    "reading": "Psalms 119:129-152"
+  },
+  {
+    "dayOfYear": 602,
+    "reading": "Psalms 119:153-176"
+  },
+  {
+    "dayOfYear": 603,
+    "reading": "Psalms 120"
+  },
+  {
+    "dayOfYear": 604,
+    "reading": "Psalms 121, 2 Corinthians 3"
+  },
+  {
+    "dayOfYear": 605,
+    "reading": "Psalms 122"
+  },
+  {
+    "dayOfYear": 606,
+    "reading": "Psalms 123"
+  },
+  {
+    "dayOfYear": 607,
+    "reading": "Psalms 124"
+  },
+  {
+    "dayOfYear": 608,
+    "reading": "Psalms 125, 2 Corinthians 4"
+  },
+  {
+    "dayOfYear": 609,
+    "reading": "Psalms 126"
+  },
+  {
+    "dayOfYear": 610,
+    "reading": "Psalms 127"
+  },
+  {
+    "dayOfYear": 611,
+    "reading": "Psalms 128"
+  },
+  {
+    "dayOfYear": 612,
+    "reading": "Psalms 129, 2 Corinthians 5"
+  },
+  {
+    "dayOfYear": 613,
+    "reading": "Psalms 130"
+  },
+  {
+    "dayOfYear": 614,
+    "reading": "Psalms 131"
+  },
+  {
+    "dayOfYear": 615,
+    "reading": "Psalms 132"
+  },
+  {
+    "dayOfYear": 616,
+    "reading": "Psalms 133, 2 Corinthians 6"
+  },
+  {
+    "dayOfYear": 617,
+    "reading": "Psalms 134"
+  },
+  {
+    "dayOfYear": 618,
+    "reading": "Psalms 135"
+  },
+  {
+    "dayOfYear": 619,
+    "reading": "Psalms 136"
+  },
+  {
+    "dayOfYear": 620,
+    "reading": "Psalms 137, 2 Corinthians 7"
+  },
+  {
+    "dayOfYear": 621,
+    "reading": "Psalms 138"
+  },
+  {
+    "dayOfYear": 622,
+    "reading": "Psalms 139"
+  },
+  {
+    "dayOfYear": 623,
+    "reading": "Psalms 140"
+  },
+  {
+    "dayOfYear": 624,
+    "reading": "Psalms 141, 2 Corinthians 8"
+  },
+  {
+    "dayOfYear": 625,
+    "reading": "Psalms 142"
+  },
+  {
+    "dayOfYear": 626,
+    "reading": "Psalms 143"
+  },
+  {
+    "dayOfYear": 627,
+    "reading": "Psalms 144"
+  },
+  {
+    "dayOfYear": 628,
+    "reading": "Psalms 145, 2 Corinthians 9"
+  },
+  {
+    "dayOfYear": 629,
+    "reading": "Psalms 146"
+  },
+  {
+    "dayOfYear": 630,
+    "reading": "Psalms 147"
+  },
+  {
+    "dayOfYear": 631,
+    "reading": "Psalms 148"
+  },
+  {
+    "dayOfYear": 632,
+    "reading": "Psalms 149, 2 Corinthians 10"
+  },
+  {
+    "dayOfYear": 633,
+    "reading": "Psalms 150"
+  },
+  {
+    "dayOfYear": 634,
+    "reading": "Proverbs 1"
+  },
+  {
+    "dayOfYear": 635,
+    "reading": "Proverbs 2"
+  },
+  {
+    "dayOfYear": 636,
+    "reading": "Proverbs 3, 2 Corinthians 11"
+  },
+  {
+    "dayOfYear": 637,
+    "reading": "Proverbs 4"
+  },
+  {
+    "dayOfYear": 638,
+    "reading": "Proverbs 5"
+  },
+  {
+    "dayOfYear": 639,
+    "reading": "Proverbs 6"
+  },
+  {
+    "dayOfYear": 640,
+    "reading": "Proverbs 7, 2 Corinthians 12"
+  },
+  {
+    "dayOfYear": 641,
+    "reading": "Proverbs 8"
+  },
+  {
+    "dayOfYear": 642,
+    "reading": "Proverbs 9"
+  },
+  {
+    "dayOfYear": 643,
+    "reading": "Proverbs 10"
+  },
+  {
+    "dayOfYear": 644,
+    "reading": "Proverbs 11, 2 Corinthians 13"
+  },
+  {
+    "dayOfYear": 645,
+    "reading": "Proverbs 12"
+  },
+  {
+    "dayOfYear": 646,
+    "reading": "Proverbs 13"
+  },
+  {
+    "dayOfYear": 647,
+    "reading": "Proverbs 14"
+  },
+  {
+    "dayOfYear": 648,
+    "reading": "Proverbs 15, Galatians 1"
+  },
+  {
+    "dayOfYear": 649,
+    "reading": "Proverbs 16"
+  },
+  {
+    "dayOfYear": 650,
+    "reading": "Proverbs 17"
+  },
+  {
+    "dayOfYear": 651,
+    "reading": "Proverbs 18"
+  },
+  {
+    "dayOfYear": 652,
+    "reading": "Proverbs 19, Galatians 2"
+  },
+  {
+    "dayOfYear": 653,
+    "reading": "Proverbs 20"
+  },
+  {
+    "dayOfYear": 654,
+    "reading": "Proverbs 21"
+  },
+  {
+    "dayOfYear": 655,
+    "reading": "Proverbs 22"
+  },
+  {
+    "dayOfYear": 656,
+    "reading": "Proverbs 23, Galatians 3"
+  },
+  {
+    "dayOfYear": 657,
+    "reading": "Proverbs 24"
+  },
+  {
+    "dayOfYear": 658,
+    "reading": "Proverbs 25"
+  },
+  {
+    "dayOfYear": 659,
+    "reading": "Proverbs 26"
+  },
+  {
+    "dayOfYear": 660,
+    "reading": "Proverbs 27, Galatians 4"
+  },
+  {
+    "dayOfYear": 661,
+    "reading": "Proverbs 28"
+  },
+  {
+    "dayOfYear": 662,
+    "reading": "Proverbs 29"
+  },
+  {
+    "dayOfYear": 663,
+    "reading": "Proverbs 30"
+  },
+  {
+    "dayOfYear": 664,
+    "reading": "Proverbs 31, Galatians 5"
+  },
+  {
+    "dayOfYear": 665,
+    "reading": "Ecclesiastes 1"
+  },
+  {
+    "dayOfYear": 666,
+    "reading": "Ecclesiastes 2"
+  },
+  {
+    "dayOfYear": 667,
+    "reading": "Ecclesiastes 3"
+  },
+  {
+    "dayOfYear": 668,
+    "reading": "Ecclesiastes 4, Galatians 6"
+  },
+  {
+    "dayOfYear": 669,
+    "reading": "Ecclesiastes 5"
+  },
+  {
+    "dayOfYear": 670,
+    "reading": "Ecclesiastes 6"
+  },
+  {
+    "dayOfYear": 671,
+    "reading": "Ecclesiastes 7"
+  },
+  {
+    "dayOfYear": 672,
+    "reading": "Ecclesiastes 8, Ephesians 1"
+  },
+  {
+    "dayOfYear": 673,
+    "reading": "Ecclesiastes 9"
+  },
+  {
+    "dayOfYear": 674,
+    "reading": "Ecclesiastes 10"
+  },
+  {
+    "dayOfYear": 675,
+    "reading": "Ecclesiastes 11"
+  },
+  {
+    "dayOfYear": 676,
+    "reading": "Ecclesiastes 12, Ephesians 2"
+  },
+  {
+    "dayOfYear": 677,
+    "reading": "Song of Solomon 1"
+  },
+  {
+    "dayOfYear": 678,
+    "reading": "Song of Solomon 2"
+  },
+  {
+    "dayOfYear": 679,
+    "reading": "Song of Solomon 3"
+  },
+  {
+    "dayOfYear": 680,
+    "reading": "Song of Solomon 4, Ephesians 3"
+  },
+  {
+    "dayOfYear": 681,
+    "reading": "Song of Solomon 5"
+  },
+  {
+    "dayOfYear": 682,
+    "reading": "Song of Solomon 6"
+  },
+  {
+    "dayOfYear": 683,
+    "reading": "Song of Solomon 7"
+  },
+  {
+    "dayOfYear": 684,
+    "reading": "Song of Solomon 8, Ephesians 4"
+  },
+  {
+    "dayOfYear": 685,
+    "reading": "Isaiah 1"
+  },
+  {
+    "dayOfYear": 686,
+    "reading": "Isaiah 2"
+  },
+  {
+    "dayOfYear": 687,
+    "reading": "Isaiah 3"
+  },
+  {
+    "dayOfYear": 688,
+    "reading": "Isaiah 4, Ephesians 5"
+  },
+  {
+    "dayOfYear": 689,
+    "reading": "Isaiah 5"
+  },
+  {
+    "dayOfYear": 690,
+    "reading": "Isaiah 6"
+  },
+  {
+    "dayOfYear": 691,
+    "reading": "Isaiah 7"
+  },
+  {
+    "dayOfYear": 692,
+    "reading": "Isaiah 8, Ephesians 6"
+  },
+  {
+    "dayOfYear": 693,
+    "reading": "Isaiah 9"
+  },
+  {
+    "dayOfYear": 694,
+    "reading": "Isaiah 10"
+  },
+  {
+    "dayOfYear": 695,
+    "reading": "Isaiah 11"
+  },
+  {
+    "dayOfYear": 696,
+    "reading": "Isaiah 12, Philippians 1"
+  },
+  {
+    "dayOfYear": 697,
+    "reading": "Isaiah 13"
+  },
+  {
+    "dayOfYear": 698,
+    "reading": "Isaiah 14"
+  },
+  {
+    "dayOfYear": 699,
+    "reading": "Isaiah 15"
+  },
+  {
+    "dayOfYear": 700,
+    "reading": "Isaiah 16, Philippians 2"
+  },
+  {
+    "dayOfYear": 701,
+    "reading": "Isaiah 17"
+  },
+  {
+    "dayOfYear": 702,
+    "reading": "Isaiah 18"
+  },
+  {
+    "dayOfYear": 703,
+    "reading": "Isaiah 19"
+  },
+  {
+    "dayOfYear": 704,
+    "reading": "Isaiah 20, Philippians 3"
+  },
+  {
+    "dayOfYear": 705,
+    "reading": "Isaiah 21"
+  },
+  {
+    "dayOfYear": 706,
+    "reading": "Isaiah 22"
+  },
+  {
+    "dayOfYear": 707,
+    "reading": "Isaiah 23"
+  },
+  {
+    "dayOfYear": 708,
+    "reading": "Isaiah 24, Philippians 4"
+  },
+  {
+    "dayOfYear": 709,
+    "reading": "Isaiah 25"
+  },
+  {
+    "dayOfYear": 710,
+    "reading": "Isaiah 26"
+  },
+  {
+    "dayOfYear": 711,
+    "reading": "Isaiah 27"
+  },
+  {
+    "dayOfYear": 712,
+    "reading": "Isaiah 28, Colossians 1"
+  },
+  {
+    "dayOfYear": 713,
+    "reading": "Isaiah 29"
+  },
+  {
+    "dayOfYear": 714,
+    "reading": "Isaiah 30"
+  },
+  {
+    "dayOfYear": 715,
+    "reading": "Isaiah 31"
+  },
+  {
+    "dayOfYear": 716,
+    "reading": "Isaiah 32, Colossians 2"
+  },
+  {
+    "dayOfYear": 717,
+    "reading": "Isaiah 33"
+  },
+  {
+    "dayOfYear": 718,
+    "reading": "Isaiah 34"
+  },
+  {
+    "dayOfYear": 719,
+    "reading": "Isaiah 35"
+  },
+  {
+    "dayOfYear": 720,
+    "reading": "Isaiah 36, Colossians 3"
+  },
+  {
+    "dayOfYear": 721,
+    "reading": "Isaiah 37"
+  },
+  {
+    "dayOfYear": 722,
+    "reading": "Isaiah 38"
+  },
+  {
+    "dayOfYear": 723,
+    "reading": "Isaiah 39"
+  },
+  {
+    "dayOfYear": 724,
+    "reading": "Isaiah 40, Colossians 4"
+  },
+  {
+    "dayOfYear": 725,
+    "reading": "Isaiah 41"
+  },
+  {
+    "dayOfYear": 726,
+    "reading": "Isaiah 42"
+  },
+  {
+    "dayOfYear": 727,
+    "reading": "Isaiah 43"
+  },
+  {
+    "dayOfYear": 728,
+    "reading": "Isaiah 44, 1 Thessalonians 1"
+  },
+  {
+    "dayOfYear": 729,
+    "reading": "Isaiah 45"
+  },
+  {
+    "dayOfYear": 730,
+    "reading": "Isaiah 46"
+  },
+  {
+    "dayOfYear": 731,
+    "reading": "Isaiah 47"
+  },
+  {
+    "dayOfYear": 732,
+    "reading": "Isaiah 48, 1 Thessalonians 2"
+  },
+  {
+    "dayOfYear": 733,
+    "reading": "Isaiah 49"
+  },
+  {
+    "dayOfYear": 734,
+    "reading": "Isaiah 50"
+  },
+  {
+    "dayOfYear": 735,
+    "reading": "Isaiah 51"
+  },
+  {
+    "dayOfYear": 736,
+    "reading": "Isaiah 52, 1 Thessalonians 3"
+  },
+  {
+    "dayOfYear": 737,
+    "reading": "Isaiah 53"
+  },
+  {
+    "dayOfYear": 738,
+    "reading": "Isaiah 54"
+  },
+  {
+    "dayOfYear": 739,
+    "reading": "Isaiah 55"
+  },
+  {
+    "dayOfYear": 740,
+    "reading": "Isaiah 56, 1 Thessalonians 4"
+  },
+  {
+    "dayOfYear": 741,
+    "reading": "Isaiah 57"
+  },
+  {
+    "dayOfYear": 742,
+    "reading": "Isaiah 58"
+  },
+  {
+    "dayOfYear": 743,
+    "reading": "Isaiah 59"
+  },
+  {
+    "dayOfYear": 744,
+    "reading": "Isaiah 60, 1 Thessalonians 5"
+  },
+  {
+    "dayOfYear": 745,
+    "reading": "Isaiah 61"
+  },
+  {
+    "dayOfYear": 746,
+    "reading": "Isaiah 62"
+  },
+  {
+    "dayOfYear": 747,
+    "reading": "Isaiah 63"
+  },
+  {
+    "dayOfYear": 748,
+    "reading": "Isaiah 64, 2 Thessalonians 1"
+  },
+  {
+    "dayOfYear": 749,
+    "reading": "Isaiah 65"
+  },
+  {
+    "dayOfYear": 750,
+    "reading": "Isaiah 66"
+  },
+  {
+    "dayOfYear": 751,
+    "reading": "Jeremiah 1"
+  },
+  {
+    "dayOfYear": 752,
+    "reading": "Jeremiah 2, 2 Thessalonians 2"
+  },
+  {
+    "dayOfYear": 753,
+    "reading": "Jeremiah 3"
+  },
+  {
+    "dayOfYear": 754,
+    "reading": "Jeremiah 4"
+  },
+  {
+    "dayOfYear": 755,
+    "reading": "Jeremiah 5"
+  },
+  {
+    "dayOfYear": 756,
+    "reading": "Jeremiah 6, 2 Thessalonians 3"
+  },
+  {
+    "dayOfYear": 757,
+    "reading": "Jeremiah 7"
+  },
+  {
+    "dayOfYear": 758,
+    "reading": "Jeremiah 8"
+  },
+  {
+    "dayOfYear": 759,
+    "reading": "Jeremiah 9"
+  },
+  {
+    "dayOfYear": 760,
+    "reading": "Jeremiah 10, 1 Timothy 1"
+  },
+  {
+    "dayOfYear": 761,
+    "reading": "Jeremiah 11"
+  },
+  {
+    "dayOfYear": 762,
+    "reading": "Jeremiah 12"
+  },
+  {
+    "dayOfYear": 763,
+    "reading": "Jeremiah 13"
+  },
+  {
+    "dayOfYear": 764,
+    "reading": "Jeremiah 14, 1 Timothy 2"
+  },
+  {
+    "dayOfYear": 765,
+    "reading": "Jeremiah 15"
+  },
+  {
+    "dayOfYear": 766,
+    "reading": "Jeremiah 16"
+  },
+  {
+    "dayOfYear": 767,
+    "reading": "Jeremiah 17"
+  },
+  {
+    "dayOfYear": 768,
+    "reading": "Jeremiah 18, 1 Timothy 3"
+  },
+  {
+    "dayOfYear": 769,
+    "reading": "Jeremiah 19"
+  },
+  {
+    "dayOfYear": 770,
+    "reading": "Jeremiah 20"
+  },
+  {
+    "dayOfYear": 771,
+    "reading": "Jeremiah 21"
+  },
+  {
+    "dayOfYear": 772,
+    "reading": "Jeremiah 22, 1 Timothy 4"
+  },
+  {
+    "dayOfYear": 773,
+    "reading": "Jeremiah 23"
+  },
+  {
+    "dayOfYear": 774,
+    "reading": "Jeremiah 24"
+  },
+  {
+    "dayOfYear": 775,
+    "reading": "Jeremiah 25"
+  },
+  {
+    "dayOfYear": 776,
+    "reading": "Jeremiah 26, 1 Timothy 5"
+  },
+  {
+    "dayOfYear": 777,
+    "reading": "Jeremiah 27"
+  },
+  {
+    "dayOfYear": 778,
+    "reading": "Jeremiah 28"
+  },
+  {
+    "dayOfYear": 779,
+    "reading": "Jeremiah 29"
+  },
+  {
+    "dayOfYear": 780,
+    "reading": "Jeremiah 30, 1 Timothy 6"
+  },
+  {
+    "dayOfYear": 781,
+    "reading": "Jeremiah 31"
+  },
+  {
+    "dayOfYear": 782,
+    "reading": "Jeremiah 32"
+  },
+  {
+    "dayOfYear": 783,
+    "reading": "Jeremiah 33"
+  },
+  {
+    "dayOfYear": 784,
+    "reading": "Jeremiah 34, 2 Timothy 1"
+  },
+  {
+    "dayOfYear": 785,
+    "reading": "Jeremiah 35"
+  },
+  {
+    "dayOfYear": 786,
+    "reading": "Jeremiah 36"
+  },
+  {
+    "dayOfYear": 787,
+    "reading": "Jeremiah 37"
+  },
+  {
+    "dayOfYear": 788,
+    "reading": "Jeremiah 38, 2 Timothy 2"
+  },
+  {
+    "dayOfYear": 789,
+    "reading": "Jeremiah 39"
+  },
+  {
+    "dayOfYear": 790,
+    "reading": "Jeremiah 40"
+  },
+  {
+    "dayOfYear": 791,
+    "reading": "Jeremiah 41"
+  },
+  {
+    "dayOfYear": 792,
+    "reading": "Jeremiah 42, 2 Timothy 3"
+  },
+  {
+    "dayOfYear": 793,
+    "reading": "Jeremiah 43"
+  },
+  {
+    "dayOfYear": 794,
+    "reading": "Jeremiah 44"
+  },
+  {
+    "dayOfYear": 795,
+    "reading": "Jeremiah 45"
+  },
+  {
+    "dayOfYear": 796,
+    "reading": "Jeremiah 46, 2 Timothy 4"
+  },
+  {
+    "dayOfYear": 797,
+    "reading": "Jeremiah 47"
+  },
+  {
+    "dayOfYear": 798,
+    "reading": "Jeremiah 48"
+  },
+  {
+    "dayOfYear": 799,
+    "reading": "Jeremiah 49"
+  },
+  {
+    "dayOfYear": 800,
+    "reading": "Jeremiah 50, Titus 1"
+  },
+  {
+    "dayOfYear": 801,
+    "reading": "Jeremiah 51"
+  },
+  {
+    "dayOfYear": 802,
+    "reading": "Jeremiah 52"
+  },
+  {
+    "dayOfYear": 803,
+    "reading": "Lamentations 1"
+  },
+  {
+    "dayOfYear": 804,
+    "reading": "Lamentations 2, Titus 2"
+  },
+  {
+    "dayOfYear": 805,
+    "reading": "Lamentations 3"
+  },
+  {
+    "dayOfYear": 806,
+    "reading": "Lamentations 4"
+  },
+  {
+    "dayOfYear": 807,
+    "reading": "Lamentations 5"
+  },
+  {
+    "dayOfYear": 808,
+    "reading": "Ezekiel 1, Titus 3"
+  },
+  {
+    "dayOfYear": 809,
+    "reading": "Ezekiel 2"
+  },
+  {
+    "dayOfYear": 810,
+    "reading": "Ezekiel 3"
+  },
+  {
+    "dayOfYear": 811,
+    "reading": "Ezekiel 4"
+  },
+  {
+    "dayOfYear": 812,
+    "reading": "Ezekiel 5, Philemon 1"
+  },
+  {
+    "dayOfYear": 813,
+    "reading": "Ezekiel 6"
+  },
+  {
+    "dayOfYear": 814,
+    "reading": "Ezekiel 7"
+  },
+  {
+    "dayOfYear": 815,
+    "reading": "Ezekiel 8"
+  },
+  {
+    "dayOfYear": 816,
+    "reading": "Ezekiel 9, Hebrews 1"
+  },
+  {
+    "dayOfYear": 817,
+    "reading": "Ezekiel 10"
+  },
+  {
+    "dayOfYear": 818,
+    "reading": "Ezekiel 11"
+  },
+  {
+    "dayOfYear": 819,
+    "reading": "Ezekiel 12"
+  },
+  {
+    "dayOfYear": 820,
+    "reading": "Ezekiel 13, Hebrews 2"
+  },
+  {
+    "dayOfYear": 821,
+    "reading": "Ezekiel 14"
+  },
+  {
+    "dayOfYear": 822,
+    "reading": "Ezekiel 15"
+  },
+  {
+    "dayOfYear": 823,
+    "reading": "Ezekiel 16"
+  },
+  {
+    "dayOfYear": 824,
+    "reading": "Ezekiel 17, Hebrews 3"
+  },
+  {
+    "dayOfYear": 825,
+    "reading": "Ezekiel 18"
+  },
+  {
+    "dayOfYear": 826,
+    "reading": "Ezekiel 19"
+  },
+  {
+    "dayOfYear": 827,
+    "reading": "Ezekiel 20"
+  },
+  {
+    "dayOfYear": 828,
+    "reading": "Ezekiel 21, Hebrews 4"
+  },
+  {
+    "dayOfYear": 829,
+    "reading": "Ezekiel 22"
+  },
+  {
+    "dayOfYear": 830,
+    "reading": "Ezekiel 23"
+  },
+  {
+    "dayOfYear": 831,
+    "reading": "Ezekiel 24"
+  },
+  {
+    "dayOfYear": 832,
+    "reading": "Ezekiel 25, Hebrews 5"
+  },
+  {
+    "dayOfYear": 833,
+    "reading": "Ezekiel 26"
+  },
+  {
+    "dayOfYear": 834,
+    "reading": "Ezekiel 27"
+  },
+  {
+    "dayOfYear": 835,
+    "reading": "Ezekiel 28"
+  },
+  {
+    "dayOfYear": 836,
+    "reading": "Ezekiel 29, Hebrews 6"
+  },
+  {
+    "dayOfYear": 837,
+    "reading": "Ezekiel 30"
+  },
+  {
+    "dayOfYear": 838,
+    "reading": "Ezekiel 31"
+  },
+  {
+    "dayOfYear": 839,
+    "reading": "Ezekiel 32"
+  },
+  {
+    "dayOfYear": 840,
+    "reading": "Ezekiel 33, Hebrews 7"
+  },
+  {
+    "dayOfYear": 841,
+    "reading": "Ezekiel 34"
+  },
+  {
+    "dayOfYear": 842,
+    "reading": "Ezekiel 35"
+  },
+  {
+    "dayOfYear": 843,
+    "reading": "Ezekiel 36"
+  },
+  {
+    "dayOfYear": 844,
+    "reading": "Ezekiel 37, Hebrews 8"
+  },
+  {
+    "dayOfYear": 845,
+    "reading": "Ezekiel 38"
+  },
+  {
+    "dayOfYear": 846,
+    "reading": "Ezekiel 39"
+  },
+  {
+    "dayOfYear": 847,
+    "reading": "Ezekiel 40"
+  },
+  {
+    "dayOfYear": 848,
+    "reading": "Ezekiel 41, Hebrews 9"
+  },
+  {
+    "dayOfYear": 849,
+    "reading": "Ezekiel 42"
+  },
+  {
+    "dayOfYear": 850,
+    "reading": "Ezekiel 43"
+  },
+  {
+    "dayOfYear": 851,
+    "reading": "Ezekiel 44"
+  },
+  {
+    "dayOfYear": 852,
+    "reading": "Ezekiel 45, Hebrews 10"
+  },
+  {
+    "dayOfYear": 853,
+    "reading": "Ezekiel 46"
+  },
+  {
+    "dayOfYear": 854,
+    "reading": "Ezekiel 47"
+  },
+  {
+    "dayOfYear": 855,
+    "reading": "Ezekiel 48"
+  },
+  {
+    "dayOfYear": 856,
+    "reading": "Daniel 1, Hebrews 11"
+  },
+  {
+    "dayOfYear": 857,
+    "reading": "Daniel 2"
+  },
+  {
+    "dayOfYear": 858,
+    "reading": "Daniel 3"
+  },
+  {
+    "dayOfYear": 859,
+    "reading": "Daniel 4"
+  },
+  {
+    "dayOfYear": 860,
+    "reading": "Daniel 5, Hebrews 12"
+  },
+  {
+    "dayOfYear": 861,
+    "reading": "Daniel 6"
+  },
+  {
+    "dayOfYear": 862,
+    "reading": "Daniel 7"
+  },
+  {
+    "dayOfYear": 863,
+    "reading": "Daniel 8"
+  },
+  {
+    "dayOfYear": 864,
+    "reading": "Daniel 9, Hebrews 13"
+  },
+  {
+    "dayOfYear": 865,
+    "reading": "Daniel 10"
+  },
+  {
+    "dayOfYear": 866,
+    "reading": "Daniel 11"
+  },
+  {
+    "dayOfYear": 867,
+    "reading": "Daniel 12"
+  },
+  {
+    "dayOfYear": 868,
+    "reading": "Hosea 1, James 1"
+  },
+  {
+    "dayOfYear": 869,
+    "reading": "Hosea 2"
+  },
+  {
+    "dayOfYear": 870,
+    "reading": "Hosea 3"
+  },
+  {
+    "dayOfYear": 871,
+    "reading": "Hosea 4"
+  },
+  {
+    "dayOfYear": 872,
+    "reading": "Hosea 5, James 2"
+  },
+  {
+    "dayOfYear": 873,
+    "reading": "Hosea 6"
+  },
+  {
+    "dayOfYear": 874,
+    "reading": "Hosea 7"
+  },
+  {
+    "dayOfYear": 875,
+    "reading": "Hosea 8"
+  },
+  {
+    "dayOfYear": 876,
+    "reading": "Hosea 9, James 3"
+  },
+  {
+    "dayOfYear": 877,
+    "reading": "Hosea 10"
+  },
+  {
+    "dayOfYear": 878,
+    "reading": "Hosea 11"
+  },
+  {
+    "dayOfYear": 879,
+    "reading": "Hosea 12"
+  },
+  {
+    "dayOfYear": 880,
+    "reading": "Hosea 13, James 4"
+  },
+  {
+    "dayOfYear": 881,
+    "reading": "Hosea 14"
+  },
+  {
+    "dayOfYear": 882,
+    "reading": "Joel 1"
+  },
+  {
+    "dayOfYear": 883,
+    "reading": "Joel 2"
+  },
+  {
+    "dayOfYear": 884,
+    "reading": "Joel 3, James 5"
+  },
+  {
+    "dayOfYear": 885,
+    "reading": "Amos 1"
+  },
+  {
+    "dayOfYear": 886,
+    "reading": "Amos 2"
+  },
+  {
+    "dayOfYear": 887,
+    "reading": "Amos 3"
+  },
+  {
+    "dayOfYear": 888,
+    "reading": "Amos 4, 1 Peter 1"
+  },
+  {
+    "dayOfYear": 889,
+    "reading": "Amos 5"
+  },
+  {
+    "dayOfYear": 890,
+    "reading": "Amos 6"
+  },
+  {
+    "dayOfYear": 891,
+    "reading": "Amos 7"
+  },
+  {
+    "dayOfYear": 892,
+    "reading": "Amos 8, 1 Peter 2"
+  },
+  {
+    "dayOfYear": 893,
+    "reading": "Amos 9"
+  },
+  {
+    "dayOfYear": 894,
+    "reading": "Obadiah 1"
+  },
+  {
+    "dayOfYear": 895,
+    "reading": "Jonah 1"
+  },
+  {
+    "dayOfYear": 896,
+    "reading": "Jonah 2, 1 Peter 3"
+  },
+  {
+    "dayOfYear": 897,
+    "reading": "Jonah 3"
+  },
+  {
+    "dayOfYear": 898,
+    "reading": "Jonah 4"
+  },
+  {
+    "dayOfYear": 899,
+    "reading": "Micah 1"
+  },
+  {
+    "dayOfYear": 900,
+    "reading": "Micah 2, 1 Peter 4"
+  },
+  {
+    "dayOfYear": 901,
+    "reading": "Micah 3"
+  },
+  {
+    "dayOfYear": 902,
+    "reading": "Micah 4"
+  },
+  {
+    "dayOfYear": 903,
+    "reading": "Micah 5"
+  },
+  {
+    "dayOfYear": 904,
+    "reading": "Micah 6, 1 Peter 5"
+  },
+  {
+    "dayOfYear": 905,
+    "reading": "Micah 7"
+  },
+  {
+    "dayOfYear": 906,
+    "reading": "Nahum 1"
+  },
+  {
+    "dayOfYear": 907,
+    "reading": "Nahum 2"
+  },
+  {
+    "dayOfYear": 908,
+    "reading": "Nahum 3, 2 Peter 1"
+  },
+  {
+    "dayOfYear": 909,
+    "reading": "Habakkuk 1"
+  },
+  {
+    "dayOfYear": 910,
+    "reading": "Habakkuk 2"
+  },
+  {
+    "dayOfYear": 911,
+    "reading": "Habakkuk 3"
+  },
+  {
+    "dayOfYear": 912,
+    "reading": "Zephaniah 1, 2 Peter 2"
+  },
+  {
+    "dayOfYear": 913,
+    "reading": "Zephaniah 2"
+  },
+  {
+    "dayOfYear": 914,
+    "reading": "Zephaniah 3"
+  },
+  {
+    "dayOfYear": 915,
+    "reading": "Haggai 1"
+  },
+  {
+    "dayOfYear": 916,
+    "reading": "Haggai 2, 2 Peter 3"
+  },
+  {
+    "dayOfYear": 917,
+    "reading": "Zechariah 1"
+  },
+  {
+    "dayOfYear": 918,
+    "reading": "Zechariah 2"
+  },
+  {
+    "dayOfYear": 919,
+    "reading": "Zechariah 3"
+  },
+  {
+    "dayOfYear": 920,
+    "reading": "Zechariah 4, 1 John 1"
+  },
+  {
+    "dayOfYear": 921,
+    "reading": "Zechariah 5"
+  },
+  {
+    "dayOfYear": 922,
+    "reading": "Zechariah 6"
+  },
+  {
+    "dayOfYear": 923,
+    "reading": "Zechariah 7"
+  },
+  {
+    "dayOfYear": 924,
+    "reading": "Zechariah 8, 1 John 2"
+  },
+  {
+    "dayOfYear": 925,
+    "reading": "Zechariah 9"
+  },
+  {
+    "dayOfYear": 926,
+    "reading": "Zechariah 10"
+  },
+  {
+    "dayOfYear": 927,
+    "reading": "Zechariah 11"
+  },
+  {
+    "dayOfYear": 928,
+    "reading": "Zechariah 12, 1 John 3"
+  },
+  {
+    "dayOfYear": 929,
+    "reading": "Zechariah 13"
+  },
+  {
+    "dayOfYear": 930,
+    "reading": "Zechariah 14"
+  },
+  {
+    "dayOfYear": 931,
+    "reading": "Malachi 1"
+  },
+  {
+    "dayOfYear": 932,
+    "reading": "Malachi 2, 1 John 4"
+  },
+  {
+    "dayOfYear": 933,
+    "reading": "Malachi 3"
+  },
+  {
+    "dayOfYear": 934,
+    "reading": "Malachi 4"
+  },
+  {
+    "dayOfYear": 935,
+    "reading": "1 John 5"
+  },
+  {
+    "dayOfYear": 936,
+    "reading": "2 John 1"
+  },
+  {
+    "dayOfYear": 937,
+    "reading": "3 John 1"
+  },
+  {
+    "dayOfYear": 938,
+    "reading": "Jude 1"
+  },
+  {
+    "dayOfYear": 939,
+    "reading": "Revelation 1"
+  },
+  {
+    "dayOfYear": 940,
+    "reading": "Revelation 2"
+  },
+  {
+    "dayOfYear": 941,
+    "reading": "Revelation 3"
+  },
+  {
+    "dayOfYear": 942,
+    "reading": "Revelation 4"
+  },
+  {
+    "dayOfYear": 943,
+    "reading": "Revelation 5"
+  },
+  {
+    "dayOfYear": 944,
+    "reading": "Revelation 6"
+  },
+  {
+    "dayOfYear": 945,
+    "reading": "Revelation 7"
+  },
+  {
+    "dayOfYear": 946,
+    "reading": "Revelation 8"
+  },
+  {
+    "dayOfYear": 947,
+    "reading": "Revelation 9"
+  },
+  {
+    "dayOfYear": 948,
+    "reading": "Revelation 10"
+  },
+  {
+    "dayOfYear": 949,
+    "reading": "Revelation 11"
+  },
+  {
+    "dayOfYear": 950,
+    "reading": "Revelation 12"
+  },
+  {
+    "dayOfYear": 951,
+    "reading": "Revelation 13"
+  },
+  {
+    "dayOfYear": 952,
+    "reading": "Revelation 14"
+  },
+  {
+    "dayOfYear": 953,
+    "reading": "Revelation 15"
+  },
+  {
+    "dayOfYear": 954,
+    "reading": "Revelation 16"
+  },
+  {
+    "dayOfYear": 955,
+    "reading": "Revelation 17"
+  },
+  {
+    "dayOfYear": 956,
+    "reading": "Revelation 18"
+  },
+  {
+    "dayOfYear": 957,
+    "reading": "Revelation 19"
+  },
+  {
+    "dayOfYear": 958,
+    "reading": "Revelation 20"
+  },
+  {
+    "dayOfYear": 959,
+    "reading": "Revelation 21"
+  },
+  {
+    "dayOfYear": 960,
+    "reading": "Revelation 22"
+  },
+  {
+    "dayOfYear": 961,
+    "reading": "Genesis 1"
+  },
+  {
+    "dayOfYear": 962,
+    "reading": "Genesis 2"
+  },
+  {
+    "dayOfYear": 963,
+    "reading": "Genesis 3"
+  },
+  {
+    "dayOfYear": 964,
+    "reading": "Genesis 4"
+  },
+  {
+    "dayOfYear": 965,
+    "reading": "Genesis 5"
+  },
+  {
+    "dayOfYear": 966,
+    "reading": "Genesis 6"
+  },
+  {
+    "dayOfYear": 967,
+    "reading": "Genesis 7"
+  },
+  {
+    "dayOfYear": 968,
+    "reading": "Genesis 8"
+  },
+  {
+    "dayOfYear": 969,
+    "reading": "Genesis 9"
+  },
+  {
+    "dayOfYear": 970,
+    "reading": "Genesis 10"
+  },
+  {
+    "dayOfYear": 971,
+    "reading": "Genesis 11"
+  },
+  {
+    "dayOfYear": 972,
+    "reading": "Genesis 12"
+  },
+  {
+    "dayOfYear": 973,
+    "reading": "Genesis 13"
+  },
+  {
+    "dayOfYear": 974,
+    "reading": "Genesis 14"
+  },
+  {
+    "dayOfYear": 975,
+    "reading": "Genesis 15"
+  },
+  {
+    "dayOfYear": 976,
+    "reading": "Genesis 16"
+  },
+  {
+    "dayOfYear": 977,
+    "reading": "Genesis 17"
+  },
+  {
+    "dayOfYear": 978,
+    "reading": "Genesis 18"
+  },
+  {
+    "dayOfYear": 979,
+    "reading": "Genesis 19"
+  },
+  {
+    "dayOfYear": 980,
+    "reading": "Genesis 20"
+  },
+  {
+    "dayOfYear": 981,
+    "reading": "Genesis 21"
+  },
+  {
+    "dayOfYear": 982,
+    "reading": "Genesis 22"
+  },
+  {
+    "dayOfYear": 983,
+    "reading": "Genesis 23"
+  },
+  {
+    "dayOfYear": 984,
+    "reading": "Genesis 24"
+  },
+  {
+    "dayOfYear": 985,
+    "reading": "Genesis 25"
+  },
+  {
+    "dayOfYear": 986,
+    "reading": "Genesis 26"
+  },
+  {
+    "dayOfYear": 987,
+    "reading": "Genesis 27"
+  },
+  {
+    "dayOfYear": 988,
+    "reading": "Genesis 28"
+  },
+  {
+    "dayOfYear": 989,
+    "reading": "Genesis 29"
+  },
+  {
+    "dayOfYear": 990,
+    "reading": "Genesis 30"
+  },
+  {
+    "dayOfYear": 991,
+    "reading": "Genesis 31"
+  },
+  {
+    "dayOfYear": 992,
+    "reading": "Genesis 32"
+  },
+  {
+    "dayOfYear": 993,
+    "reading": "Genesis 33"
+  },
+  {
+    "dayOfYear": 994,
+    "reading": "Genesis 34"
+  },
+  {
+    "dayOfYear": 995,
+    "reading": "Genesis 35"
+  },
+  {
+    "dayOfYear": 996,
+    "reading": "Genesis 36"
+  },
+  {
+    "dayOfYear": 997,
+    "reading": "Genesis 37"
+  },
+  {
+    "dayOfYear": 998,
+    "reading": "Genesis 38"
+  },
+  {
+    "dayOfYear": 999,
+    "reading": "Genesis 39"
+  },
+  {
+    "dayOfYear": 1000,
+    "reading": "Genesis 40"
+  },
+  {
+    "dayOfYear": 1001,
+    "reading": "Genesis 41"
+  },
+  {
+    "dayOfYear": 1002,
+    "reading": "Genesis 42"
+  },
+  {
+    "dayOfYear": 1003,
+    "reading": "Genesis 43"
+  },
+  {
+    "dayOfYear": 1004,
+    "reading": "Genesis 44"
+  },
+  {
+    "dayOfYear": 1005,
+    "reading": "Genesis 45"
+  },
+  {
+    "dayOfYear": 1006,
+    "reading": "Genesis 46"
+  },
+  {
+    "dayOfYear": 1007,
+    "reading": "Genesis 47"
+  },
+  {
+    "dayOfYear": 1008,
+    "reading": "Genesis 48"
+  },
+  {
+    "dayOfYear": 1009,
+    "reading": "Genesis 49"
+  },
+  {
+    "dayOfYear": 1010,
+    "reading": "Genesis 50"
+  },
+  {
+    "dayOfYear": 1011,
+    "reading": "Exodus 1"
+  },
+  {
+    "dayOfYear": 1012,
+    "reading": "Exodus 2"
+  },
+  {
+    "dayOfYear": 1013,
+    "reading": "Exodus 3"
+  },
+  {
+    "dayOfYear": 1014,
+    "reading": "Exodus 4"
+  },
+  {
+    "dayOfYear": 1015,
+    "reading": "Exodus 5"
+  },
+  {
+    "dayOfYear": 1016,
+    "reading": "Exodus 6"
+  },
+  {
+    "dayOfYear": 1017,
+    "reading": "Exodus 7"
+  },
+  {
+    "dayOfYear": 1018,
+    "reading": "Exodus 8"
+  },
+  {
+    "dayOfYear": 1019,
+    "reading": "Exodus 9"
+  },
+  {
+    "dayOfYear": 1020,
+    "reading": "Exodus 10"
+  },
+  {
+    "dayOfYear": 1021,
+    "reading": "Exodus 11"
+  },
+  {
+    "dayOfYear": 1022,
+    "reading": "Exodus 12"
+  },
+  {
+    "dayOfYear": 1023,
+    "reading": "Exodus 13"
+  },
+  {
+    "dayOfYear": 1024,
+    "reading": "Exodus 14"
+  },
+  {
+    "dayOfYear": 1025,
+    "reading": "Exodus 15"
+  },
+  {
+    "dayOfYear": 1026,
+    "reading": "Exodus 16"
+  },
+  {
+    "dayOfYear": 1027,
+    "reading": "Exodus 17"
+  },
+  {
+    "dayOfYear": 1028,
+    "reading": "Exodus 18"
+  },
+  {
+    "dayOfYear": 1029,
+    "reading": "Exodus 19"
+  },
+  {
+    "dayOfYear": 1030,
+    "reading": "Exodus 20"
+  },
+  {
+    "dayOfYear": 1031,
+    "reading": "Exodus 21"
+  },
+  {
+    "dayOfYear": 1032,
+    "reading": "Exodus 22"
+  },
+  {
+    "dayOfYear": 1033,
+    "reading": "Exodus 23"
+  },
+  {
+    "dayOfYear": 1034,
+    "reading": "Exodus 24"
+  },
+  {
+    "dayOfYear": 1035,
+    "reading": "Exodus 25"
+  },
+  {
+    "dayOfYear": 1036,
+    "reading": "Exodus 26"
+  },
+  {
+    "dayOfYear": 1037,
+    "reading": "Exodus 27"
+  },
+  {
+    "dayOfYear": 1038,
+    "reading": "Exodus 28"
+  },
+  {
+    "dayOfYear": 1039,
+    "reading": "Exodus 29"
+  },
+  {
+    "dayOfYear": 1040,
+    "reading": "Exodus 30"
+  },
+  {
+    "dayOfYear": 1041,
+    "reading": "Exodus 31"
+  },
+  {
+    "dayOfYear": 1042,
+    "reading": "Exodus 32"
+  },
+  {
+    "dayOfYear": 1043,
+    "reading": "Exodus 33"
+  },
+  {
+    "dayOfYear": 1044,
+    "reading": "Exodus 34"
+  },
+  {
+    "dayOfYear": 1045,
+    "reading": "Exodus 35"
+  },
+  {
+    "dayOfYear": 1046,
+    "reading": "Exodus 36"
+  },
+  {
+    "dayOfYear": 1047,
+    "reading": "Exodus 37"
+  },
+  {
+    "dayOfYear": 1048,
+    "reading": "Exodus 38"
+  },
+  {
+    "dayOfYear": 1049,
+    "reading": "Exodus 39"
+  },
+  {
+    "dayOfYear": 1050,
+    "reading": "Exodus 40"
+  },
+  {
+    "dayOfYear": 1051,
+    "reading": "Leviticus 1"
+  },
+  {
+    "dayOfYear": 1052,
+    "reading": "Leviticus 2"
+  },
+  {
+    "dayOfYear": 1053,
+    "reading": "Leviticus 3"
+  },
+  {
+    "dayOfYear": 1054,
+    "reading": "Leviticus 4"
+  },
+  {
+    "dayOfYear": 1055,
+    "reading": "Leviticus 5"
+  },
+  {
+    "dayOfYear": 1056,
+    "reading": "Leviticus 6"
+  },
+  {
+    "dayOfYear": 1057,
+    "reading": "Leviticus 7"
+  },
+  {
+    "dayOfYear": 1058,
+    "reading": "Leviticus 8"
+  },
+  {
+    "dayOfYear": 1059,
+    "reading": "Leviticus 9"
+  },
+  {
+    "dayOfYear": 1060,
+    "reading": "Leviticus 10"
+  },
+  {
+    "dayOfYear": 1061,
+    "reading": "Leviticus 11"
+  },
+  {
+    "dayOfYear": 1062,
+    "reading": "Leviticus 12"
+  },
+  {
+    "dayOfYear": 1063,
+    "reading": "Leviticus 13"
+  },
+  {
+    "dayOfYear": 1064,
+    "reading": "Leviticus 14"
+  },
+  {
+    "dayOfYear": 1065,
+    "reading": "Leviticus 15"
+  },
+  {
+    "dayOfYear": 1066,
+    "reading": "Leviticus 16"
+  },
+  {
+    "dayOfYear": 1067,
+    "reading": "Leviticus 17"
+  },
+  {
+    "dayOfYear": 1068,
+    "reading": "Leviticus 18"
+  },
+  {
+    "dayOfYear": 1069,
+    "reading": "Leviticus 19"
+  },
+  {
+    "dayOfYear": 1070,
+    "reading": "Leviticus 20"
+  },
+  {
+    "dayOfYear": 1071,
+    "reading": "Leviticus 21"
+  },
+  {
+    "dayOfYear": 1072,
+    "reading": "Leviticus 22"
+  },
+  {
+    "dayOfYear": 1073,
+    "reading": "Leviticus 23"
+  },
+  {
+    "dayOfYear": 1074,
+    "reading": "Leviticus 24"
+  },
+  {
+    "dayOfYear": 1075,
+    "reading": "Leviticus 25"
+  },
+  {
+    "dayOfYear": 1076,
+    "reading": "Leviticus 26"
+  },
+  {
+    "dayOfYear": 1077,
+    "reading": "Leviticus 27"
+  },
+  {
+    "dayOfYear": 1078,
+    "reading": "Numbers 1"
+  },
+  {
+    "dayOfYear": 1079,
+    "reading": "Numbers 2"
+  },
+  {
+    "dayOfYear": 1080,
+    "reading": "Numbers 3"
+  },
+  {
+    "dayOfYear": 1081,
+    "reading": "Numbers 4"
+  },
+  {
+    "dayOfYear": 1082,
+    "reading": "Numbers 5"
+  },
+  {
+    "dayOfYear": 1083,
+    "reading": "Numbers 6"
+  },
+  {
+    "dayOfYear": 1084,
+    "reading": "Numbers 7"
+  },
+  {
+    "dayOfYear": 1085,
+    "reading": "Numbers 8"
+  },
+  {
+    "dayOfYear": 1086,
+    "reading": "Numbers 9"
+  },
+  {
+    "dayOfYear": 1087,
+    "reading": "Numbers 10"
+  },
+  {
+    "dayOfYear": 1088,
+    "reading": "Numbers 11"
+  },
+  {
+    "dayOfYear": 1089,
+    "reading": "Numbers 12"
+  },
+  {
+    "dayOfYear": 1090,
+    "reading": "Numbers 13"
+  },
+  {
+    "dayOfYear": 1091,
+    "reading": "Numbers 14"
+  },
+  {
+    "dayOfYear": 1092,
+    "reading": "Numbers 15"
+  },
+  {
+    "dayOfYear": 1093,
+    "reading": "Numbers 16"
+  },
+  {
+    "dayOfYear": 1094,
+    "reading": "Numbers 17"
+  },
+  {
+    "dayOfYear": 1095,
+    "reading": "Numbers 18"
+  },
+  {
+    "dayOfYear": 1096,
+    "reading": "Numbers 19"
+  }
+]

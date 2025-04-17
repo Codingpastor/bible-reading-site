@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import readingPlan from './reading-plan.json'
 
 const fontOptions = [
   { label: 'Serif', value: 'serif', css: 'Georgia, Times New Roman, serif' },
@@ -25,8 +26,8 @@ const meditationLengths = [2, 5, 10, 15, 20, 30]
 const API_KEY = undefined // Not needed for bible-api.com
 const ESV_API_KEY = '77b863b5c32c927d2e959d8c59043f5ac77e0d57'
 
-// Set the start date to a consistent, universal value
-const startDate = new Date('2025-04-15')
+// Set the start date so that April 17, 2025 is day 254
+const startDate = new Date('2024-08-07')
 const endDate = new Date(startDate)
 endDate.setDate(startDate.getDate() + 3 * 365 - 1) // 3 years from today
 const bibleBooks = [
@@ -120,6 +121,18 @@ function getReadingByDate(dateObj) {
   return fullReadingPlan.find(r => r.date === dateStr)
 }
 
+function getPlanDay(date) {
+  // Use UTC to avoid timezone issues
+  const utc1 = Date.UTC(startDate.getFullYear(), startDate.getMonth(), startDate.getDate())
+  const utc2 = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate())
+  const msPerDay = 1000 * 60 * 60 * 24
+  return Math.round((utc2 - utc1) / msPerDay)
+}
+
+function getReadingByPlanDay(planDay) {
+  return readingPlan.find(r => r.day === planDay)
+}
+
 function App() {
   const [offset, setOffset] = useState(0)
   const [passage, setPassage] = useState('')
@@ -129,9 +142,12 @@ function App() {
   const [originalPassage, setOriginalPassage] = useState('')
   // Use the user's system date for today
   const today = new Date();
+  const todayString = today.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
   const readingDate = new Date(today)
   readingDate.setDate(today.getDate() + offset)
-  const reading = getReadingByDate(readingDate)
+  const planDay = getPlanDay(readingDate)
+  const readingEntry = readingPlan[planDay - 1] // 0-based index
+  const dateString = readingDate.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })
 
   const [theme, setTheme] = useState('light')
   const [font, setFont] = useState('serif')
@@ -188,11 +204,11 @@ function App() {
   }, [timerActive, timer])
 
   useEffect(() => {
-    if (!reading) return
+    if (!readingEntry) return
     setLoading(true)
     setError('')
     // Use ESV API, now with verse numbers included
-    fetch(`https://api.esv.org/v3/passage/text/?q=${encodeURIComponent(reading.book + ' ' + reading.chapter)}&include-passage-references=false&include-verse-numbers=true&include-footnotes=false&include-headings=true`, {
+    fetch(`https://api.esv.org/v3/passage/text/?q=${encodeURIComponent(readingEntry.reading)}&include-passage-references=false&include-verse-numbers=true&include-footnotes=false&include-headings=true`, {
       headers: { 'Authorization': `Token ${ESV_API_KEY}` }
     })
       .then(res => res.json())
@@ -212,23 +228,24 @@ function App() {
         setError('Failed to fetch passage.')
         setLoading(false)
       })
-  }, [reading])
+  }, [readingEntry])
 
   return (
     <div className={"relax-container" + (timerActive ? " blur-bg" : "") }>
       <div className="relax-header">
         <h1>Bible Reading - 3 Year Cycle</h1>
-        <h2>{reading ? reading.date : ''}</h2>
-        <h3>{offset === 0 ? "Today's Reading" : `Reading for ${reading ? reading.date : ''}`}</h3>
+        <h2>{readingEntry ? `Day ${planDay}` : ''}</h2>
+        <h3>Today's Date: {todayString}</h3>
+        <h4>{offset === 0 ? "Today's Reading" : `Reading for ${dateString}`}</h4>
       </div>
       <div className="relax-nav">
         <button onClick={() => setOffset(o => o - 1)}>Previous</button>
         <button onClick={() => setOffset(0)} style={{margin: '0 1em'}}>Today</button>
         <button onClick={() => setOffset(o => o + 1)}>Next</button>
       </div>
-      {reading ? (
+      {readingEntry ? (
         <div>
-          <h3 style={{marginBottom: '0.5em'}}>{reading.book} {reading.chapter}</h3>
+          <h3 style={{marginBottom: '0.5em'}}>{readingEntry.reading}</h3>
           <div
             className="relax-scripture"
             style={{
@@ -283,12 +300,12 @@ function App() {
           onClick={() => {
             if (navigator.share) {
               navigator.share({
-                title: `${reading.book} ${reading.chapter} (${reading.date})`,
+                title: `${readingEntry.reading} (Day ${planDay})`,
                 text: passage.replace(/<[^>]+>/g, ''),
                 url: window.location.href
               })
             } else {
-              navigator.clipboard.writeText(`${reading.book} ${reading.chapter} (${reading.date})\n${passage.replace(/<[^>]+>/g, '')}`)
+              navigator.clipboard.writeText(`${readingEntry.reading} (Day ${planDay})\n${passage.replace(/<[^>]+>/g, '')}`)
               alert('Passage copied to clipboard!')
             }
           }}
@@ -411,7 +428,5 @@ function App() {
     </div>
   )
 }
-
-// Remove ScrollToTopButton component
 
 export default App

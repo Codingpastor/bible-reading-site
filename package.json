@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "build:subdomain": "set VITE_BASE=/ && npm run build",
+    "predeploy": "npm run build:subdomain && copy public\\CNAME dist\\CNAME",
     "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
